@@ -1,0 +1,177 @@
+[
+  {
+    "model": "reporting.TransportWith",
+    "pk": 1,
+    "fields": {
+      "transportWith": "RAIL"
+    }
+  },
+  {
+    "model": "reporting.TransportWith",
+    "pk": 2,
+    "fields": {
+      "transportWith": "ROAD"
+    }
+  },
+  {
+    "model": "reporting.TransportWith",
+    "pk": 3,
+    "fields": {
+      "transportWith": "WATER"
+    }
+  },
+  {
+    "model": "reporting.TransportHow",
+    "pk": 1,
+    "fields": {
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportHow",
+    "pk": 2,
+    "fields": {
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 1,
+    "fields": {
+      "transportCode": "4",
+      "transportName": "TRANSPORT BY VESSEL/SHIP      ",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 2,
+    "fields": {
+      "transportCode": "5",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "transportWith": "ROAD",
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 3,
+    "fields": {
+      "transportCode": "10",
+      "transportName": "CUSTOMER PICK-UP RAILWAY",
+      "transportWith": "RAIL",
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 4,
+    "fields": {
+      "transportCode": "13",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 5,
+    "fields": {
+      "transportCode": "15",
+      "transportName": "PICK UP BAGS AGENT",
+      "transportWith": "ROAD",
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 6,
+    "fields": {
+      "transportCode": "CFR",
+      "transportName": "CFR",
+      "transportWith": "RAIL",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 7,
+    "fields": {
+      "transportCode": "DAP",
+      "transportName": "DAP",
+      "transportWith": "RAIL",
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 8,
+    "fields": {
+      "transportCode": "EXW",
+      "transportName": "EXW",
+      "transportWith": "ROAD",
+      "transportHow": "PICKUP"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 9,
+    "fields": {
+      "transportCode": "CPT",
+      "transportName": "CPT",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 10,
+    "fields": {
+      "transportCode": "CIF",
+      "transportName": "CIF",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 11,
+    "fields": {
+      "transportCode": "DAT",
+      "transportName": "DAT",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 12,
+    "fields": {
+      "transportCode": "DDP",
+      "transportName": "DDP",
+      "transportWith": "RAIL",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 13,
+    "fields": {
+      "transportCode": "17",
+      "transportName": "LAFARGE TRANSPORT OF CLINKER",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  },
+  {
+    "model": "reporting.TransportType",
+    "pk": 14,
+    "fields": {
+      "transportCode": "DAP1",
+      "transportName": "DAP1",
+      "transportWith": "ROAD",
+      "transportHow": "DELIVERY"
+    }
+  }
+]

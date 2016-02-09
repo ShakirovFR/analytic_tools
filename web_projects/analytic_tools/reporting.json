@@ -1,0 +1,3318 @@
+[
+{
+    "model": "reporting.region",
+    "pk": 1,
+    "fields": {
+        "codeSap": "1",
+        "sapName": "Adygeya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u0434\u044b\u0433\u0435\u044f (\u0410\u0434\u044b\u0433\u0435\u044f)",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 2,
+    "fields": {
+        "codeSap": "2",
+        "sapName": "Bashkortostan",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 3,
+    "fields": {
+        "codeSap": "3",
+        "sapName": "Buryatiya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0443\u0440\u044f\u0442\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 4,
+    "fields": {
+        "codeSap": "4",
+        "sapName": "Altay",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u043b\u0442\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 5,
+    "fields": {
+        "codeSap": "5",
+        "sapName": "Dagestan",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0414\u0430\u0433\u0435\u0441\u0442\u0430\u043d",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 6,
+    "fields": {
+        "codeSap": "6",
+        "sapName": "Ingushetiya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u043d\u0433\u0443\u0448\u0435\u0442\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 7,
+    "fields": {
+        "codeSap": "7",
+        "sapName": "Kabardino-Balkarskay",
+        "nameEng": "\u041a\u0430\u0431\u0430\u0440\u0434\u0438\u043d\u043e-\u0411\u0430\u043b\u043a\u0430\u0440\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 8,
+    "fields": {
+        "codeSap": "8",
+        "sapName": "Kalmykiya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u043b\u043c\u044b\u043a\u0438\u044f-\u0425\u0430\u043b\u044c\u043c\u0433 \u0422\u0430\u043d\u0433\u0447",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 9,
+    "fields": {
+        "codeSap": "9",
+        "sapName": "Karachaevo-Cherkessi",
+        "nameEng": "\u041a\u0430\u0440\u0430\u0447\u0430\u0435\u0432\u043e-\u0427\u0435\u0440\u043a\u0435\u0441\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 10,
+    "fields": {
+        "codeSap": "10",
+        "sapName": "Kareliya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0440\u0435\u043b\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 11,
+    "fields": {
+        "codeSap": "11",
+        "sapName": "Komi",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u043c\u0438",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 12,
+    "fields": {
+        "codeSap": "12",
+        "sapName": "Mariy El",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u0440\u0438\u0439 \u042d\u043b",
+        "mainRegion": "Tatarstan"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 13,
+    "fields": {
+        "codeSap": "13",
+        "sapName": "Mordoviya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u043e\u0440\u0434\u043e\u0432\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 14,
+    "fields": {
+        "codeSap": "14",
+        "sapName": "Respublika Sacha",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0430\u0445\u0430 (\u042f\u043a\u0443\u0442\u0438\u044f)",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 15,
+    "fields": {
+        "codeSap": "15",
+        "sapName": "S.Osetiya-Alaniya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u041e\u0441\u0435\u0442\u0438\u044f-\u0410\u043b\u0430\u043d\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 16,
+    "fields": {
+        "codeSap": "16",
+        "sapName": "Tatarstan",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d",
+        "mainRegion": "Tatarstan"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 17,
+    "fields": {
+        "codeSap": "17",
+        "sapName": "Respublika Tyva",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u044b\u0432\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 18,
+    "fields": {
+        "codeSap": "18",
+        "sapName": "Udmurtiya",
+        "nameEng": "\u0423\u0434\u043c\u0443\u0440\u0442\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 19,
+    "fields": {
+        "codeSap": "19",
+        "sapName": "Respublika Chakasiya",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0425\u0430\u043a\u0430\u0441\u0438\u044f",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 20,
+    "fields": {
+        "codeSap": "21",
+        "sapName": "Chuvashiya",
+        "nameEng": "\u0427\u0443\u0432\u0430\u0448\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 21,
+    "fields": {
+        "codeSap": "22",
+        "sapName": "Altayskiy kray",
+        "nameEng": "\u0410\u043b\u0442\u0430\u0439\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 22,
+    "fields": {
+        "codeSap": "23",
+        "sapName": "Krasnodar",
+        "nameEng": "\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "South"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 23,
+    "fields": {
+        "codeSap": "24",
+        "sapName": "Krasnoyarskiy kray",
+        "nameEng": "\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 24,
+    "fields": {
+        "codeSap": "25",
+        "sapName": "Primorskiy kray",
+        "nameEng": "\u041f\u0440\u0438\u043c\u043e\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 25,
+    "fields": {
+        "codeSap": "26",
+        "sapName": "Stavropol",
+        "nameEng": "\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "South"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 26,
+    "fields": {
+        "codeSap": "27",
+        "sapName": "Chabarovsk",
+        "nameEng": "\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 27,
+    "fields": {
+        "codeSap": "28",
+        "sapName": "Amursk",
+        "nameEng": "\u0410\u043c\u0443\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 28,
+    "fields": {
+        "codeSap": "29",
+        "sapName": "Archangel'sk",
+        "nameEng": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 29,
+    "fields": {
+        "codeSap": "30",
+        "sapName": "Astrachan",
+        "nameEng": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "South"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 30,
+    "fields": {
+        "codeSap": "31",
+        "sapName": "Belgorod",
+        "nameEng": "\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 31,
+    "fields": {
+        "codeSap": "32",
+        "sapName": "Bryansk",
+        "nameEng": "\u0411\u0440\u044f\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 32,
+    "fields": {
+        "codeSap": "33",
+        "sapName": "Vladimir",
+        "nameEng": "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "N.Novgorod"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 33,
+    "fields": {
+        "codeSap": "34",
+        "sapName": "Volgograd",
+        "nameEng": "\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "South"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 34,
+    "fields": {
+        "codeSap": "35",
+        "sapName": "Vologda",
+        "nameEng": "\u0412\u043e\u043b\u043e\u0433\u043e\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 35,
+    "fields": {
+        "codeSap": "36",
+        "sapName": "Voronezh",
+        "nameEng": "\u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 36,
+    "fields": {
+        "codeSap": "37",
+        "sapName": "Ivanovo",
+        "nameEng": "\u0418\u0432\u0430\u043d\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "N.Novgorod"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 37,
+    "fields": {
+        "codeSap": "38",
+        "sapName": "Irkutsk",
+        "nameEng": "\u0418\u0440\u043a\u0443\u0442\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 38,
+    "fields": {
+        "codeSap": "39",
+        "sapName": "Kaliningrad",
+        "nameEng": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 39,
+    "fields": {
+        "codeSap": "40",
+        "sapName": "Kaluga",
+        "nameEng": "\u041a\u0430\u043b\u0443\u0436\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 40,
+    "fields": {
+        "codeSap": "41",
+        "sapName": "Kamchatka",
+        "nameEng": "\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 41,
+    "fields": {
+        "codeSap": "42",
+        "sapName": "Kemerovo",
+        "nameEng": "\u041a\u0435\u043c\u0435\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 42,
+    "fields": {
+        "codeSap": "43",
+        "sapName": "Kirov",
+        "nameEng": "\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 43,
+    "fields": {
+        "codeSap": "44",
+        "sapName": "Kostroma",
+        "nameEng": "\u041a\u043e\u0441\u0442\u0440\u043e\u043c\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "N.Novgorod"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 44,
+    "fields": {
+        "codeSap": "45",
+        "sapName": "Kurgan",
+        "nameEng": "\u041a\u0443\u0440\u0433\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 45,
+    "fields": {
+        "codeSap": "46",
+        "sapName": "Kursk",
+        "nameEng": "\u041a\u0443\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 46,
+    "fields": {
+        "codeSap": "47",
+        "sapName": "Leningradskaya",
+        "nameEng": "\u041b\u0435\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 47,
+    "fields": {
+        "codeSap": "48",
+        "sapName": "Lipetsk",
+        "nameEng": "\u041b\u0438\u043f\u0435\u0446\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 48,
+    "fields": {
+        "codeSap": "49",
+        "sapName": "Magadan",
+        "nameEng": "\u041c\u0430\u0433\u0430\u0434\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 49,
+    "fields": {
+        "codeSap": "50",
+        "sapName": "Moscow Region",
+        "nameEng": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 50,
+    "fields": {
+        "codeSap": "51",
+        "sapName": "Murmansk",
+        "nameEng": "\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 51,
+    "fields": {
+        "codeSap": "52",
+        "sapName": "N. Novgorod",
+        "nameEng": "\u041d\u0438\u0436\u0435\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "N.Novgorod"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 52,
+    "fields": {
+        "codeSap": "53",
+        "sapName": "Novgorod",
+        "nameEng": "\u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 53,
+    "fields": {
+        "codeSap": "54",
+        "sapName": "Novosibirsk",
+        "nameEng": "\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 54,
+    "fields": {
+        "codeSap": "55",
+        "sapName": "Omsk",
+        "nameEng": "\u041e\u043c\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 55,
+    "fields": {
+        "codeSap": "56",
+        "sapName": "Orenburg",
+        "nameEng": "\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Orenburg"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 56,
+    "fields": {
+        "codeSap": "57",
+        "sapName": "Orel",
+        "nameEng": "\u041e\u0440\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 57,
+    "fields": {
+        "codeSap": "58",
+        "sapName": "Penza",
+        "nameEng": "\u041f\u0435\u043d\u0437\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Saratov"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 58,
+    "fields": {
+        "codeSap": "59",
+        "sapName": "Perm",
+        "nameEng": "\u041f\u0435\u0440\u043c\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 59,
+    "fields": {
+        "codeSap": "60",
+        "sapName": "Pskov",
+        "nameEng": "\u041f\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 60,
+    "fields": {
+        "codeSap": "61",
+        "sapName": "Rostov",
+        "nameEng": "\u0420\u043e\u0441\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "South"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 61,
+    "fields": {
+        "codeSap": "62",
+        "sapName": "Ryazan",
+        "nameEng": "\u0420\u044f\u0437\u0430\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 62,
+    "fields": {
+        "codeSap": "63",
+        "sapName": "Samara",
+        "nameEng": "\u0421\u0430\u043c\u0430\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Samara"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 63,
+    "fields": {
+        "codeSap": "64",
+        "sapName": "Saratov",
+        "nameEng": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Saratov"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 64,
+    "fields": {
+        "codeSap": "65",
+        "sapName": "Sachalin",
+        "nameEng": "\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 65,
+    "fields": {
+        "codeSap": "66",
+        "sapName": "Sverdlovsk",
+        "nameEng": "\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 66,
+    "fields": {
+        "codeSap": "67",
+        "sapName": "Smolensk",
+        "nameEng": "\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 67,
+    "fields": {
+        "codeSap": "68",
+        "sapName": "Tambov",
+        "nameEng": "\u0422\u0430\u043c\u0431\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 68,
+    "fields": {
+        "codeSap": "69",
+        "sapName": "Tver",
+        "nameEng": "\u0422\u0432\u0435\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 69,
+    "fields": {
+        "codeSap": "70",
+        "sapName": "Tomsk",
+        "nameEng": "\u0422\u043e\u043c\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 70,
+    "fields": {
+        "codeSap": "71",
+        "sapName": "Tula",
+        "nameEng": "\u0422\u0443\u043b\u044c\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 71,
+    "fields": {
+        "codeSap": "72",
+        "sapName": "Tyumenskaya",
+        "nameEng": "\u0422\u044e\u043c\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 72,
+    "fields": {
+        "codeSap": "73",
+        "sapName": "Ul'yanovsk",
+        "nameEng": "\u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Samara"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 73,
+    "fields": {
+        "codeSap": "74",
+        "sapName": "Chelyabinsk",
+        "nameEng": "\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 74,
+    "fields": {
+        "codeSap": "75",
+        "sapName": "Chita",
+        "nameEng": "\u0427\u0438\u0442\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 75,
+    "fields": {
+        "codeSap": "76",
+        "sapName": "Yaroslavl",
+        "nameEng": "\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c",
+        "mainRegion": "N.Novgorod"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 76,
+    "fields": {
+        "codeSap": "77",
+        "sapName": "Moscow",
+        "nameEng": "\u0413\u043e\u0440\u043e\u0434 \u041c\u043e\u0441\u043a\u0432\u0430 \u0421\u0442\u043e\u043b\u0438\u0446\u0430 \u0420\u0424",
+        "mainRegion": "Central region"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 77,
+    "fields": {
+        "codeSap": "78",
+        "sapName": "St-Petersburg",
+        "nameEng": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 78,
+    "fields": {
+        "codeSap": "79",
+        "sapName": "Evreyskaya avton.",
+        "nameEng": "\u0415\u0432\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u0430\u0432\u0442\u043e\u043d.\u043e\u0431\u043b.",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 79,
+    "fields": {
+        "codeSap": "80",
+        "sapName": "DUMMY",
+        "nameEng": "DUMMY",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 80,
+    "fields": {
+        "codeSap": "83",
+        "sapName": "Nenezkiy AO",
+        "nameEng": "\u041d\u0435\u043d\u0435\u0446\u043a\u0438\u0439 \u0410\u041e",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 81,
+    "fields": {
+        "codeSap": "86",
+        "sapName": "Chanty-Mansiyskiy AO",
+        "nameEng": "\u0425\u0430\u043d\u0442\u044b-\u041c\u0430\u043d\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0410\u041e",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 82,
+    "fields": {
+        "codeSap": "87",
+        "sapName": "Chukotskiy AO",
+        "nameEng": "\u0427\u0443\u043a\u043e\u0442\u0441\u043a\u0438\u0439 \u0410\u041e",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 83,
+    "fields": {
+        "codeSap": "89",
+        "sapName": "Yamalo-Nenezkiy AO",
+        "nameEng": "\u042f\u043c\u0430\u043b\u043e-\u041d\u0435\u043d\u0435\u0446\u043a\u0438\u0439 \u0410\u041e",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 84,
+    "fields": {
+        "codeSap": "91",
+        "sapName": "Krym Republic",
+        "nameEng": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0440\u044b\u043c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 85,
+    "fields": {
+        "codeSap": "92",
+        "sapName": "Sevastopol",
+        "nameEng": "\u0421\u0435\u0432\u0430\u0441\u0442\u043e\u043f\u043e\u043b\u044c",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 86,
+    "fields": {
+        "codeSap": "95",
+        "sapName": "Chechenya",
+        "nameEng": "\u0427\u0435\u0447\u0435\u043d\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 87,
+    "fields": {
+        "codeSap": "BK",
+        "sapName": "Baykonur",
+        "nameEng": "\u0411\u0430\u0439\u043a\u043e\u043d\u0443\u0440",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.region",
+    "pk": 88,
+    "fields": {
+        "codeSap": "RU",
+        "sapName": "Russian Fed.",
+        "nameEng": "\u043f\u0440\u043e\u0447\u0438\u0435 \u0440\u0435\u0433\u0438\u043e\u043d\u044b",
+        "mainRegion": "Other"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 1,
+    "fields": {
+        "whCode": "1",
+        "whName": "VOS"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 2,
+    "fields": {
+        "whCode": "5",
+        "whName": "FER"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 3,
+    "fields": {
+        "whCode": "U101",
+        "whName": "SHU"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 4,
+    "fields": {
+        "whCode": "U102",
+        "whName": "VOL"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 5,
+    "fields": {
+        "whCode": "U132",
+        "whName": "KAZ"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 6,
+    "fields": {
+        "whCode": "U140",
+        "whName": "KZ"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 7,
+    "fields": {
+        "whCode": "U131",
+        "whName": "KAZ"
+    }
+},
+{
+    "model": "reporting.warehouse",
+    "pk": 8,
+    "fields": {
+        "whCode": "U152",
+        "whName": "VOL"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 1,
+    "fields": {
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426500-\u04140\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 2,
+    "fields": {
+        "productName": "\u0422\u0415\u0425\u041d\u041e\u041b\u041e\u0413\u0418\u0427\u0415\u0421\u041a\u0418\u0419 \u0426\u0415\u041c\u0415\u041d\u0422",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 3,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 4,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 5,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42,5 \u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 6,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42,5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42.5 \u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 7,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42,5\u041d \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42.5 \u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 8,
+    "fields": {
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426 400-\u04145 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 9,
+    "fields": {
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426400\u041420\u0411 \u041f\u0410\u041b\u0415\u0422",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 10,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 32,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 11,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0417 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0417 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 12,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0417 42,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0417 42.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 13,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 14,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5 \u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 15,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 16,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c I 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 17,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 18,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 19,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 20,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 21,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 22,
+    "fields": {
+        "productName": "*\u0426\u0415\u041c V/\u0410(\u0428-\u041f)32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 23,
+    "fields": {
+        "productName": "*\u0426\u0415\u041cII/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0421\u0421\u041f\u0426 400 \u041420"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 24,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u0414\u041f(\u0416\u0418) \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 25,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 26,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 27,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0418 42.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0418 42.5\u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 28,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 29,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 30,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 32.5\u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 31,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 32,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 33,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0421\u0421\u041f\u0426 400 \u041420"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 34,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 1000\u041a\u0413",
+        "commonName": "\u0421\u0421\u041f\u0426 400 \u041420"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 35,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0421\u0421\u041f\u0426 400 \u041420"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 36,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5\u0411"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 37,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 38,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 39,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 40,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 41,
+    "fields": {
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 42,
+    "fields": {
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 43,
+    "fields": {
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412",
+        "commonName": "MASONRY 22.5"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 44,
+    "fields": {
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412/ KELMA 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "MASONRY 22.5"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 45,
+    "fields": {
+        "productName": "\u041f\u0426 500-\u04140-\u041d \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u041f\u0426 500-\u04140-\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 46,
+    "fields": {
+        "productName": "\u041f\u0426\u0411 1-500-\u04140 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u041f\u0426\u0411 1-500-\u04140"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 47,
+    "fields": {
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413",
+        "commonName": "\u041f\u0426\u0411 1-500-\u04140"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 48,
+    "fields": {
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u041f\u0426\u0411 1-500-\u04140"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 49,
+    "fields": {
+        "productName": "\u041f\u0426\u04111-500-\u04140/ DECOCEM 1000\u041a\u0413",
+        "commonName": "\u041f\u0426\u0411 1-500-\u04140"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 50,
+    "fields": {
+        "productName": "\u041f\u0426 500-\u04140-\u041d 1000\u041a\u0413",
+        "commonName": "\u041f\u0426 500 \u04140-\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 51,
+    "fields": {
+        "productName": "\u041f\u0426\u0422 I-50 1000\u041a\u0413",
+        "commonName": "\u041f\u0426\u0422-I-50"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 52,
+    "fields": {
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED 1000\u041a\u0413",
+        "commonName": "\u041f\u0426\u0422 I-G-\u0421\u0421-I"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 53,
+    "fields": {
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u041f\u0426\u0422 I-G-\u0421\u0421-I"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 54,
+    "fields": {
+        "productName": "\u041f\u0426\u0422 II-50 1000\u041a\u0413",
+        "commonName": "\u041f\u0426\u0422-II-50"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 55,
+    "fields": {
+        "productName": "EXTRACEM",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 56,
+    "fields": {
+        "productName": "\u0421\u0421\u041f\u0426 500 \u041420 \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0421\u0421\u041f\u0426 500 \u041420"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 57,
+    "fields": {
+        "productName": "\u041f\u0426\u0422-I-50",
+        "commonName": "\u041f\u0426\u0422-I-50"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 58,
+    "fields": {
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0412 \u0414\u0412\u0410 \u0410\u0414\u0420\u0415\u0421\u0410",
+        "commonName": "SERVICE"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 59,
+    "fields": {
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0421 \u041d\u0415\u041f\u041e\u041b\u041d\u041e\u0419 \u0417\u0410\u0413\u0420\u0423\u0417\u041a\u041e\u0419",
+        "commonName": "SERVICE"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 60,
+    "fields": {
+        "productName": "\u041a\u041e\u041c\u0411\u041e \u041c\u0410\u0428\u0418\u041d\u0410",
+        "commonName": "SERVICE"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 61,
+    "fields": {
+        "productName": "\u041a\u041e\u041c\u0411\u041e \u0416.\u0414. \u0412\u0410\u0413\u041e\u041d",
+        "commonName": "SERVICE"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 62,
+    "fields": {
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0412 \u041c\u0410\u0428\u0418\u041d\u0415-\u041c\u0410\u041d\u0418\u041f\u0423\u041b\u042f\u0422\u041e\u0420\u0415",
+        "commonName": "SERVICE"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 63,
+    "fields": {
+        "productName": "\u0428\u0422\u0420\u0410\u0424\u042b",
+        "commonName": "PENALTY"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 64,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42.5\u041d 1000\u041a\u0413",
+        "commonName": "\u0426\u0415\u041c I 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 65,
+    "fields": {
+        "productName": "\u0426\u0415\u041c I 42,5 \u041d \u0414\u041f \u041d\u0410\u0412\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c I 42.5 \u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 66,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/NORMOCEM 25 \u041a\u0413",
+        "commonName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 67,
+    "fields": {
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 68,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 69,
+    "fields": {
+        "productName": "\u0426\u0415\u041c\u0415\u041d\u0422 EXTRACEM 500, 25 \u041a\u0413",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d"
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 70,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II \u0410-\u0418 42,5 \u041d ",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0418 42,5 \u041d "
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 71,
+    "fields": {
+        "productName": "\u0426\u0415\u041c II \u0410-\u0418 42,5 \u041d \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "commonName": "\u0426\u0415\u041c II/\u0410-\u0418 42,5 \u041d "
+    }
+},
+{
+    "model": "reporting.productname",
+    "pk": 72,
+    "fields": {
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412 50\u041a\u0413 \u041f\u0410\u041b",
+        "commonName": "MASONRY 22.5"
+    }
+},
+{
+    "model": "reporting.package",
+    "pk": 14,
+    "fields": {
+        "package": "BULK"
+    }
+},
+{
+    "model": "reporting.package",
+    "pk": 15,
+    "fields": {
+        "package": "BAG"
+    }
+},
+{
+    "model": "reporting.package",
+    "pk": 16,
+    "fields": {
+        "package": "SERVICE"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 1,
+    "fields": {
+        "subPackage": "BULK"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 2,
+    "fields": {
+        "subPackage": "PALLETS 50 KG"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 3,
+    "fields": {
+        "subPackage": "PALLETS 25 KG"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 4,
+    "fields": {
+        "subPackage": "BIG BAGS"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 5,
+    "fields": {
+        "subPackage": "BAGS"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 6,
+    "fields": {
+        "subPackage": "SERVICE"
+    }
+},
+{
+    "model": "reporting.subpackage",
+    "pk": 7,
+    "fields": {
+        "subPackage": "PENALTY"
+    }
+},
+{
+    "model": "reporting.type",
+    "pk": 1,
+    "fields": {
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.type",
+    "pk": 2,
+    "fields": {
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.type",
+    "pk": 3,
+    "fields": {
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.type",
+    "pk": 4,
+    "fields": {
+        "type": "API CEMENT"
+    }
+},
+{
+    "model": "reporting.type",
+    "pk": 5,
+    "fields": {
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 1,
+    "fields": {
+        "pr": "72470",
+        "whCode": "5",
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426500-\u04140\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 2,
+    "fields": {
+        "pr": "72638",
+        "whCode": "5",
+        "productName": "\u0422\u0415\u0425\u041d\u041e\u041b\u041e\u0413\u0418\u0427\u0415\u0421\u041a\u0418\u0419 \u0426\u0415\u041c\u0415\u041d\u0422",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 3,
+    "fields": {
+        "pr": "72630",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 4,
+    "fields": {
+        "pr": "72636",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 5,
+    "fields": {
+        "pr": "72632",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c I 42,5 \u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 6,
+    "fields": {
+        "pr": "72711",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42,5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 7,
+    "fields": {
+        "pr": "72712",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a (\u0428-\u0418) 42,5\u041d \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 8,
+    "fields": {
+        "pr": "72412",
+        "whCode": "1",
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426 400-\u04145 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 9,
+    "fields": {
+        "pr": "37951",
+        "whCode": "1",
+        "productName": "\u041f\u041e\u0420\u0422\u041b\u0410\u041d\u0414\u0426\u0415\u041c\u0415\u041d\u0422 \u041f\u0426400\u041420\u0411 \u041f\u0410\u041b\u0415\u0422",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 10,
+    "fields": {
+        "pr": "72614",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c I 32,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 11,
+    "fields": {
+        "pr": "72630",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 12,
+    "fields": {
+        "pr": "72717",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c I 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 13,
+    "fields": {
+        "pr": "72612",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0417 42,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 14,
+    "fields": {
+        "pr": "72619",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0417 42,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 15,
+    "fields": {
+        "pr": "72615",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32,5 \u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 16,
+    "fields": {
+        "pr": "39992",
+        "whCode": "1",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32,5 \u0411 \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 17,
+    "fields": {
+        "pr": "14002680",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 18,
+    "fields": {
+        "pr": "14003122",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c I 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 19,
+    "fields": {
+        "pr": "14002945",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 20,
+    "fields": {
+        "pr": "14002972",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 21,
+    "fields": {
+        "pr": "14002681",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 22,
+    "fields": {
+        "pr": "14002947",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 23,
+    "fields": {
+        "pr": "14002944",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 24,
+    "fields": {
+        "pr": "14002948",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 25,
+    "fields": {
+        "pr": "14002970",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 26,
+    "fields": {
+        "pr": "14002991",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c V/\u0410(\u0428-\u041f)32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 27,
+    "fields": {
+        "pr": "14002949",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041cII/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 28,
+    "fields": {
+        "pr": "14002410",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u0414\u041f(\u0416\u0418) \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 29,
+    "fields": {
+        "pr": "14002402",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 30,
+    "fields": {
+        "pr": "14002939",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 31,
+    "fields": {
+        "pr": "14003120",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 32,
+    "fields": {
+        "pr": "14003121",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 33,
+    "fields": {
+        "pr": "14002932",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0418 42.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 34,
+    "fields": {
+        "pr": "14002391",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 35,
+    "fields": {
+        "pr": "14002397",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 36,
+    "fields": {
+        "pr": "14002590",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 37,
+    "fields": {
+        "pr": "14002392",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 38,
+    "fields": {
+        "pr": "14002390",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 39,
+    "fields": {
+        "pr": "14002415",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 40,
+    "fields": {
+        "pr": "14002594",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 41,
+    "fields": {
+        "pr": "14002393",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 42,
+    "fields": {
+        "pr": "14002593",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 43,
+    "fields": {
+        "pr": "14002412",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 44,
+    "fields": {
+        "pr": "14002396",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 45,
+    "fields": {
+        "pr": "14002400",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 46,
+    "fields": {
+        "pr": "14002395",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 47,
+    "fields": {
+        "pr": "14002408",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 48,
+    "fields": {
+        "pr": "14002403",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 49,
+    "fields": {
+        "pr": "14002401",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 50,
+    "fields": {
+        "pr": "14002591",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 51,
+    "fields": {
+        "pr": "14002751",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 52,
+    "fields": {
+        "pr": "14003090",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 53,
+    "fields": {
+        "pr": "14002409",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 54,
+    "fields": {
+        "pr": "14002592",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 55,
+    "fields": {
+        "pr": "14002407",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 56,
+    "fields": {
+        "pr": "14002595",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 57,
+    "fields": {
+        "pr": "14002992",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 58,
+    "fields": {
+        "pr": "14002986",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 59,
+    "fields": {
+        "pr": "14003041",
+        "whCode": "U101",
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 60,
+    "fields": {
+        "pr": "14003042",
+        "whCode": "U101",
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412/ KELMA 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 61,
+    "fields": {
+        "pr": "14002713",
+        "whCode": "U101",
+        "productName": "\u041f\u0426 500-\u04140-\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 62,
+    "fields": {
+        "pr": "14002394",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 63,
+    "fields": {
+        "pr": "14002406",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413",
+        "package": "BAG",
+        "subPackage": "BAGS",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 64,
+    "fields": {
+        "pr": "14002405",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 65,
+    "fields": {
+        "pr": "14002974",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 66,
+    "fields": {
+        "pr": "14002399",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u04111-500-\u04140/ DECOCEM 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 67,
+    "fields": {
+        "pr": "14002411",
+        "whCode": "U102",
+        "productName": "\u041f\u0426 500-\u04140-\u041d 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 68,
+    "fields": {
+        "pr": "14002404",
+        "whCode": "U102",
+        "productName": "\u041f\u0426 500-\u04140-\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 69,
+    "fields": {
+        "pr": "14002414",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-50 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 70,
+    "fields": {
+        "pr": "14002418",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "API CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 71,
+    "fields": {
+        "pr": "14002389",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "API CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 72,
+    "fields": {
+        "pr": "14002417",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 II-50 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 73,
+    "fields": {
+        "pr": "14002988",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 74,
+    "fields": {
+        "pr": "1410739",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 75,
+    "fields": {
+        "pr": "1414150",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 76,
+    "fields": {
+        "pr": "1413710",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 77,
+    "fields": {
+        "pr": "1412881",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 78,
+    "fields": {
+        "pr": "1413598",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 79,
+    "fields": {
+        "pr": "1412641",
+        "whCode": "U101",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 80,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 81,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041c V/\u0410(\u0428-\u041f)32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 82,
+    "fields": {
+        "pr": "1413258",
+        "whCode": "U102",
+        "productName": "*\u0426\u0415\u041cII/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 83,
+    "fields": {
+        "pr": "1413951",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u0414\u041f(\u0416\u0418) \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 84,
+    "fields": {
+        "pr": "1410739",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 85,
+    "fields": {
+        "pr": "1414093",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0418 42.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 86,
+    "fields": {
+        "pr": "1414092",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 87,
+    "fields": {
+        "pr": "1414150",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 88,
+    "fields": {
+        "pr": "1414150",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 89,
+    "fields": {
+        "pr": "1413520",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 90,
+    "fields": {
+        "pr": "1413505",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 91,
+    "fields": {
+        "pr": "1413710",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 92,
+    "fields": {
+        "pr": "1413710",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f) 42.5\u041d/ EXTRACEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 93,
+    "fields": {
+        "pr": "1413258",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 94,
+    "fields": {
+        "pr": "1413258",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411CC/SULFOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 95,
+    "fields": {
+        "pr": "1410419",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 96,
+    "fields": {
+        "pr": "1409958",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u041f)32.5\u0411\u0421\u0421 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 97,
+    "fields": {
+        "pr": "1412673",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 32.5\u0411 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 98,
+    "fields": {
+        "pr": "1412881",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u0428 42.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 99,
+    "fields": {
+        "pr": "1409944",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 100,
+    "fields": {
+        "pr": "1412647",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 101,
+    "fields": {
+        "pr": "1413598",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 102,
+    "fields": {
+        "pr": "1413598",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 103,
+    "fields": {
+        "pr": "1412641",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 104,
+    "fields": {
+        "pr": "1412641",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 105,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 106,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/ NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 107,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 108,
+    "fields": {
+        "pr": "1412647",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 109,
+    "fields": {
+        "pr": "1409946",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 110,
+    "fields": {
+        "pr": "1409947",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413",
+        "package": "BAG",
+        "subPackage": "BAGS",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 111,
+    "fields": {
+        "pr": "1412644",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 112,
+    "fields": {
+        "pr": "1412644",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u0411 1-500-\u04140/ DECOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 113,
+    "fields": {
+        "pr": "1411388",
+        "whCode": "U101",
+        "productName": "\u041f\u0426\u04111-500-\u04140/ DECOCEM 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "WHITE CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 114,
+    "fields": {
+        "pr": "1409960",
+        "whCode": "U102",
+        "productName": "\u041f\u0426 500-\u04140-\u041d 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 115,
+    "fields": {
+        "pr": "1409959",
+        "whCode": "U102",
+        "productName": "\u041f\u0426 500-\u04140-\u041d \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 116,
+    "fields": {
+        "pr": "1411455",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-50 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 117,
+    "fields": {
+        "pr": "1409961",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "API CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 118,
+    "fields": {
+        "pr": "1409963",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 I-G-\u0421\u0421-1/G HSR APISPEC10A24ED \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "API CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 119,
+    "fields": {
+        "pr": "1411453",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422 II-50 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 120,
+    "fields": {
+        "pr": "1413711",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 121,
+    "fields": {
+        "pr": "1412883",
+        "whCode": "U101",
+        "productName": "EXTRACEM",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 122,
+    "fields": {
+        "pr": "1409964",
+        "whCode": "U102",
+        "productName": "\u0421\u0421\u041f\u0426 500 \u041420 \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 123,
+    "fields": {
+        "pr": "14002413",
+        "whCode": "U102",
+        "productName": "\u041f\u0426\u0422-I-50",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GOST CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 124,
+    "fields": {
+        "pr": "60006562",
+        "whCode": null,
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0412 \u0414\u0412\u0410 \u0410\u0414\u0420\u0415\u0421\u0410",
+        "package": "SERVICE",
+        "subPackage": "SERVICE",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 125,
+    "fields": {
+        "pr": "60006563",
+        "whCode": null,
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0421 \u041d\u0415\u041f\u041e\u041b\u041d\u041e\u0419 \u0417\u0410\u0413\u0420\u0423\u0417\u041a\u041e\u0419",
+        "package": "SERVICE",
+        "subPackage": "SERVICE",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 126,
+    "fields": {
+        "pr": "60006564",
+        "whCode": null,
+        "productName": "\u041a\u041e\u041c\u0411\u041e \u041c\u0410\u0428\u0418\u041d\u0410",
+        "package": "SERVICE",
+        "subPackage": "SERVICE",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 127,
+    "fields": {
+        "pr": "60006565",
+        "whCode": null,
+        "productName": "\u041a\u041e\u041c\u0411\u041e \u0416.\u0414. \u0412\u0410\u0413\u041e\u041d",
+        "package": "SERVICE",
+        "subPackage": "SERVICE",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 128,
+    "fields": {
+        "pr": "60006566",
+        "whCode": null,
+        "productName": "\u0410\u0412\u0422\u041e\u0414\u041e\u0421\u0422\u0410\u0412\u041a\u0410 \u0412 \u041c\u0410\u0428\u0418\u041d\u0415-\u041c\u0410\u041d\u0418\u041f\u0423\u041b\u042f\u0422\u041e\u0420\u0415",
+        "package": "SERVICE",
+        "subPackage": "SERVICE",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 129,
+    "fields": {
+        "pr": "1909283",
+        "whCode": null,
+        "productName": "\u0428\u0422\u0420\u0410\u0424\u042b",
+        "package": "SERVICE",
+        "subPackage": "PENALTY",
+        "type": "SERVICE"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 130,
+    "fields": {
+        "pr": "14002982",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c I 42.5\u041d 1000\u041a\u0413",
+        "package": "BULK",
+        "subPackage": "BIG BAGS",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 131,
+    "fields": {
+        "pr": "72719",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c I 42,5 \u041d \u0414\u041f \u041d\u0410\u0412\u0410\u041b",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 132,
+    "fields": {
+        "pr": "14003252",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c II/\u0412-\u0428 32.5\u041d/NORMOCEM 25 \u041a\u0413",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 133,
+    "fields": {
+        "pr": "14003263",
+        "whCode": "U102",
+        "productName": "\u0426\u0415\u041c V/\u0410(\u0428-\u041f) 32.5\u041d NORMOCEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 134,
+    "fields": {
+        "pr": "14003262",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c II/\u0410-\u041a(\u0428-\u0418) 42.5\u041d/ EXTRACEM 25\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 135,
+    "fields": {
+        "pr": "14003265",
+        "whCode": "U101",
+        "productName": "\u0426\u0415\u041c\u0415\u041d\u0422 EXTRACEM 500, 25 \u041a\u0413",
+        "package": "BAG",
+        "subPackage": "PALLETS 25 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 136,
+    "fields": {
+        "pr": "999999",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c II \u0410-\u0418 42,5 \u041d ",
+        "package": "BULK",
+        "subPackage": "BULK",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 137,
+    "fields": {
+        "pr": "999998",
+        "whCode": "5",
+        "productName": "\u0426\u0415\u041c II \u0410-\u0418 42,5 \u041d \u041f\u0410\u041b\u041b\u0415\u0422\u042b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.cementproductiontype",
+    "pk": 138,
+    "fields": {
+        "pr": "14003372",
+        "whCode": "U101",
+        "productName": "\u041e\u0421\u041d\u041e\u0412\u0410 \u0414\u041b\u042f \u0420\u0410\u0421\u0422\u0412\u041e\u0420\u041e\u0412 50\u041a\u0413 \u041f\u0410\u041b",
+        "package": "BAG",
+        "subPackage": "PALLETS 50 KG",
+        "type": "GREY CEMENT"
+    }
+},
+{
+    "model": "reporting.transporthow",
+    "pk": 4,
+    "fields": {
+        "transportHow": "DELIVERY"
+    }
+},
+{
+    "model": "reporting.transporthow",
+    "pk": 5,
+    "fields": {
+        "transportHow": "PICKUP"
+    }
+},
+{
+    "model": "reporting.transportwith",
+    "pk": 1,
+    "fields": {
+        "transportWith": "WATER"
+    }
+},
+{
+    "model": "reporting.transportwith",
+    "pk": 2,
+    "fields": {
+        "transportWith": "ROAD"
+    }
+},
+{
+    "model": "reporting.transportwith",
+    "pk": 3,
+    "fields": {
+        "transportWith": "RAIL"
+    }
+}
+]

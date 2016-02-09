@@ -1,0 +1,587 @@
+[
+  {
+    "model": "reporting.Segment",
+    "pk": 1,
+    "fields": {
+      "segment": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.Segment",
+    "pk": 2,
+    "fields": {
+      "segment": "Dry Mix"
+    }
+  },
+  {
+    "model": "reporting.Segment",
+    "pk": 3,
+    "fields": {
+      "segment": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.Segment",
+    "pk": 4,
+    "fields": {
+      "segment": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.Segment",
+    "pk": 5,
+    "fields": {
+      "segment": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 1,
+    "fields": {
+      "accountName": "АО \"Воскресенский ДСК\"",
+      "accountNumber": 102835,
+      "segmentSoldTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 2,
+    "fields": {
+      "accountName": "ЗАО \"ТД \"Очаковский ЖБИ\"",
+      "accountNumber": 980792,
+      "segmentSoldTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 3,
+    "fields": {
+      "accountName": "ИП Кузьмин Олег Николаевич",
+      "accountNumber": 980749,
+      "segmentSoldTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 4,
+    "fields": {
+      "accountName": "ООО \"БЛОК\"",
+      "accountNumber": 980684,
+      "segmentSoldTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 5,
+    "fields": {
+      "accountName": "ООО \"База-Бетон\"",
+      "accountNumber": 253846,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 6,
+    "fields": {
+      "accountName": "ООО \"БетонАктив\"",
+      "accountNumber": 980646,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 7,
+    "fields": {
+      "accountName": "ООО \"ВосЦемБетон\"",
+      "accountNumber": 980334,
+      "segmentSoldTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 8,
+    "fields": {
+      "accountName": "ООО \"КСМ\" (Балаклавский пр.)",
+      "accountNumber": 959536,
+      "segmentSoldTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 9,
+    "fields": {
+      "accountName": "ООО \"МагнитСервис\"",
+      "accountNumber": 113785,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 10,
+    "fields": {
+      "accountName": "ООО \"Мир-Строй\"",
+      "accountNumber": 981423,
+      "segmentSoldTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 11,
+    "fields": {
+      "accountName": "ООО \"МосБлоки\"",
+      "accountNumber": 980386,
+      "segmentSoldTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 12,
+    "fields": {
+      "accountName": "ООО \"НОВОЕ ИЗМЕРЕНИЕ\"",
+      "accountNumber": 980689,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 13,
+    "fields": {
+      "accountName": "ООО \"НСС\"",
+      "accountNumber": 106685,
+      "segmentSoldTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 14,
+    "fields": {
+      "accountName": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "accountNumber": 981248,
+      "segmentSoldTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 15,
+    "fields": {
+      "accountName": "ООО \"РосСнаб Калуга\"",
+      "accountNumber": 981196,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 16,
+    "fields": {
+      "accountName": "ООО \"Русь-Бетон\"",
+      "accountNumber": 980246,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 17,
+    "fields": {
+      "accountName": "ООО \"СОДРУЖЕСТВО-ЯП\"",
+      "accountNumber": 107793,
+      "segmentSoldTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 18,
+    "fields": {
+      "accountName": "ООО \"СПС\"",
+      "accountNumber": 980242,
+      "segmentSoldTo": "Dry Mix"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 19,
+    "fields": {
+      "accountName": "ООО \"Славянский Базар\"",
+      "accountNumber": 980214,
+      "segmentSoldTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 20,
+    "fields": {
+      "accountName": "ООО \"Стройбетон\" г. Малоярославец",
+      "accountNumber": 980703,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 21,
+    "fields": {
+      "accountName": "ООО \"ТриЛ\"",
+      "accountNumber": 981351,
+      "segmentSoldTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 22,
+    "fields": {
+      "accountName": "ООО \"ХСТФ \"ФОБОС\"",
+      "accountNumber": 212018,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 23,
+    "fields": {
+      "accountName": "ООО \"ЭПСБ\"",
+      "accountNumber": 980512,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerAccount",
+    "pk": 24,
+    "fields": {
+      "accountName": "ООО ЭнергоЖБИ",
+      "accountNumber": 981168,
+      "segmentSoldTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 1,
+    "fields": {
+      "nameShipTo": "АО \"Воскресенский ДСК\"",
+      "numberShipTo": 102836,
+      "segmentShipTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 2,
+    "fields": {
+      "nameShipTo": "ЗАО \"ТД \"Очаковский ЖБИ\"(Москва)_ФЕР",
+      "numberShipTo": 980856,
+      "segmentShipTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 3,
+    "fields": {
+      "nameShipTo": "ИП Кузьмин Олег Николаевич",
+      "numberShipTo": 980749,
+      "segmentShipTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 4,
+    "fields": {
+      "nameShipTo": "ООО \"БЛОК\" (Ожерелки)_ФЕР",
+      "numberShipTo": 980685,
+      "segmentShipTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 5,
+    "fields": {
+      "nameShipTo": "ООО \"База-Бетон\"",
+      "numberShipTo": 253846,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 6,
+    "fields": {
+      "nameShipTo": "ООО \"База-Бетон\"_ВОС",
+      "numberShipTo": 253848,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 7,
+    "fields": {
+      "nameShipTo": "ООО \"БетонАктив\" (Саларьево)_ФЕР",
+      "numberShipTo": 980647,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 8,
+    "fields": {
+      "nameShipTo": "ООО \"ВосЦемБетон\"",
+      "numberShipTo": 980334,
+      "segmentShipTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 9,
+    "fields": {
+      "nameShipTo": "ООО \"Герико\" (Одинцово)_ФЕР",
+      "numberShipTo": 980307,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 10,
+    "fields": {
+      "nameShipTo": "ООО \"КСМ\" (Балаклавский пр.)",
+      "numberShipTo": 959536,
+      "segmentShipTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 11,
+    "fields": {
+      "nameShipTo": "ООО \"МагнитСервис\"(д. Мотяково)_ФЕР",
+      "numberShipTo": 981052,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 12,
+    "fields": {
+      "nameShipTo": "ООО \"Мир-Строй\"(д. Митрополье)_ВОС",
+      "numberShipTo": 981250,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 13,
+    "fields": {
+      "nameShipTo": "ООО \"МосБлоки\" (д.Жилино) ВОС",
+      "numberShipTo": 980387,
+      "segmentShipTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 14,
+    "fields": {
+      "nameShipTo": "ООО \"НСС\" (Обнинск)_ФЕР",
+      "numberShipTo": 980557,
+      "segmentShipTo": "Heavy precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 15,
+    "fields": {
+      "nameShipTo": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "numberShipTo": 981248,
+      "segmentShipTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 16,
+    "fields": {
+      "nameShipTo": "ООО \"РосСнаб Калуга\"(Академ.проезд)_ФЕР",
+      "numberShipTo": 981197,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 17,
+    "fields": {
+      "nameShipTo": "ООО \"Русь-Бетон\" (Домодедово) (ФЕР)",
+      "numberShipTo": 980137,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 18,
+    "fields": {
+      "nameShipTo": "ООО \"СОДРУЖЕСТВО-ЯП\" (ФЕР)",
+      "numberShipTo": 979518,
+      "segmentShipTo": "Light precast"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 19,
+    "fields": {
+      "nameShipTo": "ООО \"СПС\" (д.Добрино) (ФЕР)",
+      "numberShipTo": 980243,
+      "segmentShipTo": "Dry Mix"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 20,
+    "fields": {
+      "nameShipTo": "ООО \"Славянский Базар\"(Каширский дв)_ФЕР",
+      "numberShipTo": 981647,
+      "segmentShipTo": "Brokers"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 21,
+    "fields": {
+      "nameShipTo": "ООО \"Стройбетон\" (Колонтай)_ФЕР",
+      "numberShipTo": 980704,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 22,
+    "fields": {
+      "nameShipTo": "ООО \"ТоргБетон\"(Машковский пр.)(КСМ)_ФЕР",
+      "numberShipTo": 989682,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 23,
+    "fields": {
+      "nameShipTo": "ООО \"ХСТФ \"ФОБОС\" - автодоставка",
+      "numberShipTo": 221478,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 24,
+    "fields": {
+      "nameShipTo": "ООО \"ЭПСБ\" (д. Часцы) ФЕР",
+      "numberShipTo": 980513,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 25,
+    "fields": {
+      "nameShipTo": "ООО ЭнергоЖБИ",
+      "numberShipTo": 981168,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 26,
+    "fields": {
+      "nameShipTo": "ООО\"НОВОЕ ИЗМЕРЕНИЕ\"(Новоив)_кредит_ФЕР",
+      "numberShipTo": 980690,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.CustomerShipTo",
+    "pk": 27,
+    "fields": {
+      "nameShipTo": "Об. п. ООО \"Бетон-ОЭЗ\" (Алабушево)_ВОС",
+      "numberShipTo": 240872,
+      "segmentShipTo": "RMX external"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 1,
+    "fields": {
+      "salesRepresentative": "Агатий Андрей Сергеевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 2,
+    "fields": {
+      "salesRepresentative": "Белевский Руслан Андреевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 3,
+    "fields": {
+      "salesRepresentative": "Гончаров Андрей Александрович"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 4,
+    "fields": {
+      "salesRepresentative": "Ефимов Александр Андреевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 5,
+    "fields": {
+      "salesRepresentative": "Комаров Александр Васильевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 6,
+    "fields": {
+      "salesRepresentative": "Комаров Павел Юрьевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 7,
+    "fields": {
+      "salesRepresentative": "Мажара Вячеслав Валериевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 8,
+    "fields": {
+      "salesRepresentative": "Размахов Вадим Сергеевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 9,
+    "fields": {
+      "salesRepresentative": "Ракитин Станислав Борисович"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 10,
+    "fields": {
+      "salesRepresentative": "Ревякин Илья Валерьевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 11,
+    "fields": {
+      "salesRepresentative": "Тарасов Денис Андреевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 12,
+    "fields": {
+      "salesRepresentative": "Фролов Роман Алексеевич"
+    }
+  },
+  {
+    "model": "reporting.SalesRepresentative",
+    "pk": 13,
+    "fields": {
+      "salesRepresentative": "Яремко Роман Николаевич"
+    }
+  }
+]

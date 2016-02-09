@@ -1,0 +1,9 @@
+[
+  {
+    "model": "reporting.Date",
+    "pk": 1,
+    "fields": {
+      "date": "2016-02-01 00:00:00"
+    }
+  }
+]

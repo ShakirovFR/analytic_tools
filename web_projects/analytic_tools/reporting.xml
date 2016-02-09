@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="reporting.region" pk="1">
+        <field name="codeSap" type="CharField">1</field>
+        <field name="sapName" type="CharField">Adygeya</field>
+        <field name="nameEng" type="CharField">Республика Адыгея (Адыгея)</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="2">
+        <field name="codeSap" type="CharField">2</field>
+        <field name="sapName" type="CharField">Bashkortostan</field>
+        <field name="nameEng" type="CharField">Республика Башкортостан</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="3">
+        <field name="codeSap" type="CharField">3</field>
+        <field name="sapName" type="CharField">Buryatiya</field>
+        <field name="nameEng" type="CharField">Республика Бурятия</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="4">
+        <field name="codeSap" type="CharField">4</field>
+        <field name="sapName" type="CharField">Altay</field>
+        <field name="nameEng" type="CharField">Республика Алтай</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="5">
+        <field name="codeSap" type="CharField">5</field>
+        <field name="sapName" type="CharField">Dagestan</field>
+        <field name="nameEng" type="CharField">Республика Дагестан</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="6">
+        <field name="codeSap" type="CharField">6</field>
+        <field name="sapName" type="CharField">Ingushetiya</field>
+        <field name="nameEng" type="CharField">Республика Ингушетия</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="7">
+        <field name="codeSap" type="CharField">7</field>
+        <field name="sapName" type="CharField">Kabardino-Balkarskay</field>
+        <field name="nameEng" type="CharField">Кабардино-Балкарская Республика</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="8">
+        <field name="codeSap" type="CharField">8</field>
+        <field name="sapName" type="CharField">Kalmykiya</field>
+        <field name="nameEng" type="CharField">Республика Калмыкия-Хальмг Тангч</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="9">
+        <field name="codeSap" type="CharField">9</field>
+        <field name="sapName" type="CharField">Karachaevo-Cherkessi</field>
+        <field name="nameEng" type="CharField">Карачаево-Черкесская Республика</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="10">
+        <field name="codeSap" type="CharField">10</field>
+        <field name="sapName" type="CharField">Kareliya</field>
+        <field name="nameEng" type="CharField">Республика Карелия</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="11">
+        <field name="codeSap" type="CharField">11</field>
+        <field name="sapName" type="CharField">Komi</field>
+        <field name="nameEng" type="CharField">Республика Коми</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="12">
+        <field name="codeSap" type="CharField">12</field>
+        <field name="sapName" type="CharField">Mariy El</field>
+        <field name="nameEng" type="CharField">Республика Марий Эл</field>
+        <field name="mainRegion" type="CharField">Tatarstan</field>
+    </object>
+    <object model="reporting.region" pk="13">
+        <field name="codeSap" type="CharField">13</field>
+        <field name="sapName" type="CharField">Mordoviya</field>
+        <field name="nameEng" type="CharField">Республика Мордовия</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="14">
+        <field name="codeSap" type="CharField">14</field>
+        <field name="sapName" type="CharField">Respublika Sacha</field>
+        <field name="nameEng" type="CharField">Республика Саха (Якутия)</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="15">
+        <field name="codeSap" type="CharField">15</field>
+        <field name="sapName" type="CharField">S.Osetiya-Alaniya</field>
+        <field name="nameEng" type="CharField">Республика Северная Осетия-Алания</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="16">
+        <field name="codeSap" type="CharField">16</field>
+        <field name="sapName" type="CharField">Tatarstan</field>
+        <field name="nameEng" type="CharField">Республика Татарстан</field>
+        <field name="mainRegion" type="CharField">Tatarstan</field>
+    </object>
+    <object model="reporting.region" pk="17">
+        <field name="codeSap" type="CharField">17</field>
+        <field name="sapName" type="CharField">Respublika Tyva</field>
+        <field name="nameEng" type="CharField">Республика Тыва</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="18">
+        <field name="codeSap" type="CharField">18</field>
+        <field name="sapName" type="CharField">Udmurtiya</field>
+        <field name="nameEng" type="CharField">Удмуртская Республика</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="19">
+        <field name="codeSap" type="CharField">19</field>
+        <field name="sapName" type="CharField">Respublika Chakasiya</field>
+        <field name="nameEng" type="CharField">Республика Хакасия</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="20">
+        <field name="codeSap" type="CharField">21</field>
+        <field name="sapName" type="CharField">Chuvashiya</field>
+        <field name="nameEng" type="CharField">Чувашская Республика</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="21">
+        <field name="codeSap" type="CharField">22</field>
+        <field name="sapName" type="CharField">Altayskiy kray</field>
+        <field name="nameEng" type="CharField">Алтайский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="22">
+        <field name="codeSap" type="CharField">23</field>
+        <field name="sapName" type="CharField">Krasnodar</field>
+        <field name="nameEng" type="CharField">Краснодарский край</field>
+        <field name="mainRegion" type="CharField">South</field>
+    </object>
+    <object model="reporting.region" pk="23">
+        <field name="codeSap" type="CharField">24</field>
+        <field name="sapName" type="CharField">Krasnoyarskiy kray</field>
+        <field name="nameEng" type="CharField">Красноярский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="24">
+        <field name="codeSap" type="CharField">25</field>
+        <field name="sapName" type="CharField">Primorskiy kray</field>
+        <field name="nameEng" type="CharField">Приморский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="25">
+        <field name="codeSap" type="CharField">26</field>
+        <field name="sapName" type="CharField">Stavropol</field>
+        <field name="nameEng" type="CharField">Ставропольский край</field>
+        <field name="mainRegion" type="CharField">South</field>
+    </object>
+    <object model="reporting.region" pk="26">
+        <field name="codeSap" type="CharField">27</field>
+        <field name="sapName" type="CharField">Chabarovsk</field>
+        <field name="nameEng" type="CharField">Хабаровский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="27">
+        <field name="codeSap" type="CharField">28</field>
+        <field name="sapName" type="CharField">Amursk</field>
+        <field name="nameEng" type="CharField">Амурская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="28">
+        <field name="codeSap" type="CharField">29</field>
+        <field name="sapName" type="CharField">Archangel'sk</field>
+        <field name="nameEng" type="CharField">Архангельская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="29">
+        <field name="codeSap" type="CharField">30</field>
+        <field name="sapName" type="CharField">Astrachan</field>
+        <field name="nameEng" type="CharField">Астраханская область</field>
+        <field name="mainRegion" type="CharField">South</field>
+    </object>
+    <object model="reporting.region" pk="30">
+        <field name="codeSap" type="CharField">31</field>
+        <field name="sapName" type="CharField">Belgorod</field>
+        <field name="nameEng" type="CharField">Белгородская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="31">
+        <field name="codeSap" type="CharField">32</field>
+        <field name="sapName" type="CharField">Bryansk</field>
+        <field name="nameEng" type="CharField">Брянская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="32">
+        <field name="codeSap" type="CharField">33</field>
+        <field name="sapName" type="CharField">Vladimir</field>
+        <field name="nameEng" type="CharField">Владимирская область</field>
+        <field name="mainRegion" type="CharField">N.Novgorod</field>
+    </object>
+    <object model="reporting.region" pk="33">
+        <field name="codeSap" type="CharField">34</field>
+        <field name="sapName" type="CharField">Volgograd</field>
+        <field name="nameEng" type="CharField">Волгоградская область</field>
+        <field name="mainRegion" type="CharField">South</field>
+    </object>
+    <object model="reporting.region" pk="34">
+        <field name="codeSap" type="CharField">35</field>
+        <field name="sapName" type="CharField">Vologda</field>
+        <field name="nameEng" type="CharField">Вологодская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="35">
+        <field name="codeSap" type="CharField">36</field>
+        <field name="sapName" type="CharField">Voronezh</field>
+        <field name="nameEng" type="CharField">Воронежская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="36">
+        <field name="codeSap" type="CharField">37</field>
+        <field name="sapName" type="CharField">Ivanovo</field>
+        <field name="nameEng" type="CharField">Ивановская область</field>
+        <field name="mainRegion" type="CharField">N.Novgorod</field>
+    </object>
+    <object model="reporting.region" pk="37">
+        <field name="codeSap" type="CharField">38</field>
+        <field name="sapName" type="CharField">Irkutsk</field>
+        <field name="nameEng" type="CharField">Иркутская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="38">
+        <field name="codeSap" type="CharField">39</field>
+        <field name="sapName" type="CharField">Kaliningrad</field>
+        <field name="nameEng" type="CharField">Калининградская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="39">
+        <field name="codeSap" type="CharField">40</field>
+        <field name="sapName" type="CharField">Kaluga</field>
+        <field name="nameEng" type="CharField">Калужская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="40">
+        <field name="codeSap" type="CharField">41</field>
+        <field name="sapName" type="CharField">Kamchatka</field>
+        <field name="nameEng" type="CharField">Камчатский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="41">
+        <field name="codeSap" type="CharField">42</field>
+        <field name="sapName" type="CharField">Kemerovo</field>
+        <field name="nameEng" type="CharField">Кемеровская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="42">
+        <field name="codeSap" type="CharField">43</field>
+        <field name="sapName" type="CharField">Kirov</field>
+        <field name="nameEng" type="CharField">Кировская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="43">
+        <field name="codeSap" type="CharField">44</field>
+        <field name="sapName" type="CharField">Kostroma</field>
+        <field name="nameEng" type="CharField">Костромская область</field>
+        <field name="mainRegion" type="CharField">N.Novgorod</field>
+    </object>
+    <object model="reporting.region" pk="44">
+        <field name="codeSap" type="CharField">45</field>
+        <field name="sapName" type="CharField">Kurgan</field>
+        <field name="nameEng" type="CharField">Курганская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="45">
+        <field name="codeSap" type="CharField">46</field>
+        <field name="sapName" type="CharField">Kursk</field>
+        <field name="nameEng" type="CharField">Курская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="46">
+        <field name="codeSap" type="CharField">47</field>
+        <field name="sapName" type="CharField">Leningradskaya</field>
+        <field name="nameEng" type="CharField">Ленинградская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="47">
+        <field name="codeSap" type="CharField">48</field>
+        <field name="sapName" type="CharField">Lipetsk</field>
+        <field name="nameEng" type="CharField">Липецкая область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="48">
+        <field name="codeSap" type="CharField">49</field>
+        <field name="sapName" type="CharField">Magadan</field>
+        <field name="nameEng" type="CharField">Магаданская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="49">
+        <field name="codeSap" type="CharField">50</field>
+        <field name="sapName" type="CharField">Moscow Region</field>
+        <field name="nameEng" type="CharField">Московская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="50">
+        <field name="codeSap" type="CharField">51</field>
+        <field name="sapName" type="CharField">Murmansk</field>
+        <field name="nameEng" type="CharField">Мурманская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="51">
+        <field name="codeSap" type="CharField">52</field>
+        <field name="sapName" type="CharField">N. Novgorod</field>
+        <field name="nameEng" type="CharField">Нижегородская область</field>
+        <field name="mainRegion" type="CharField">N.Novgorod</field>
+    </object>
+    <object model="reporting.region" pk="52">
+        <field name="codeSap" type="CharField">53</field>
+        <field name="sapName" type="CharField">Novgorod</field>
+        <field name="nameEng" type="CharField">Новгородская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="53">
+        <field name="codeSap" type="CharField">54</field>
+        <field name="sapName" type="CharField">Novosibirsk</field>
+        <field name="nameEng" type="CharField">Новосибирская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="54">
+        <field name="codeSap" type="CharField">55</field>
+        <field name="sapName" type="CharField">Omsk</field>
+        <field name="nameEng" type="CharField">Омская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="55">
+        <field name="codeSap" type="CharField">56</field>
+        <field name="sapName" type="CharField">Orenburg</field>
+        <field name="nameEng" type="CharField">Оренбургская область</field>
+        <field name="mainRegion" type="CharField">Orenburg</field>
+    </object>
+    <object model="reporting.region" pk="56">
+        <field name="codeSap" type="CharField">57</field>
+        <field name="sapName" type="CharField">Orel</field>
+        <field name="nameEng" type="CharField">Орловская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="57">
+        <field name="codeSap" type="CharField">58</field>
+        <field name="sapName" type="CharField">Penza</field>
+        <field name="nameEng" type="CharField">Пензенская область</field>
+        <field name="mainRegion" type="CharField">Saratov</field>
+    </object>
+    <object model="reporting.region" pk="58">
+        <field name="codeSap" type="CharField">59</field>
+        <field name="sapName" type="CharField">Perm</field>
+        <field name="nameEng" type="CharField">Пермский край</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="59">
+        <field name="codeSap" type="CharField">60</field>
+        <field name="sapName" type="CharField">Pskov</field>
+        <field name="nameEng" type="CharField">Псковская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="60">
+        <field name="codeSap" type="CharField">61</field>
+        <field name="sapName" type="CharField">Rostov</field>
+        <field name="nameEng" type="CharField">Ростовская область</field>
+        <field name="mainRegion" type="CharField">South</field>
+    </object>
+    <object model="reporting.region" pk="61">
+        <field name="codeSap" type="CharField">62</field>
+        <field name="sapName" type="CharField">Ryazan</field>
+        <field name="nameEng" type="CharField">Рязанская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="62">
+        <field name="codeSap" type="CharField">63</field>
+        <field name="sapName" type="CharField">Samara</field>
+        <field name="nameEng" type="CharField">Самарская область</field>
+        <field name="mainRegion" type="CharField">Samara</field>
+    </object>
+    <object model="reporting.region" pk="63">
+        <field name="codeSap" type="CharField">64</field>
+        <field name="sapName" type="CharField">Saratov</field>
+        <field name="nameEng" type="CharField">Саратовская область</field>
+        <field name="mainRegion" type="CharField">Saratov</field>
+    </object>
+    <object model="reporting.region" pk="64">
+        <field name="codeSap" type="CharField">65</field>
+        <field name="sapName" type="CharField">Sachalin</field>
+        <field name="nameEng" type="CharField">Сахалинская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="65">
+        <field name="codeSap" type="CharField">66</field>
+        <field name="sapName" type="CharField">Sverdlovsk</field>
+        <field name="nameEng" type="CharField">Свердловская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="66">
+        <field name="codeSap" type="CharField">67</field>
+        <field name="sapName" type="CharField">Smolensk</field>
+        <field name="nameEng" type="CharField">Смоленская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="67">
+        <field name="codeSap" type="CharField">68</field>
+        <field name="sapName" type="CharField">Tambov</field>
+        <field name="nameEng" type="CharField">Тамбовская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="68">
+        <field name="codeSap" type="CharField">69</field>
+        <field name="sapName" type="CharField">Tver</field>
+        <field name="nameEng" type="CharField">Тверская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="69">
+        <field name="codeSap" type="CharField">70</field>
+        <field name="sapName" type="CharField">Tomsk</field>
+        <field name="nameEng" type="CharField">Томская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="70">
+        <field name="codeSap" type="CharField">71</field>
+        <field name="sapName" type="CharField">Tula</field>
+        <field name="nameEng" type="CharField">Тульская область</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="71">
+        <field name="codeSap" type="CharField">72</field>
+        <field name="sapName" type="CharField">Tyumenskaya</field>
+        <field name="nameEng" type="CharField">Тюменская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="72">
+        <field name="codeSap" type="CharField">73</field>
+        <field name="sapName" type="CharField">Ul'yanovsk</field>
+        <field name="nameEng" type="CharField">Ульяновская область</field>
+        <field name="mainRegion" type="CharField">Samara</field>
+    </object>
+    <object model="reporting.region" pk="73">
+        <field name="codeSap" type="CharField">74</field>
+        <field name="sapName" type="CharField">Chelyabinsk</field>
+        <field name="nameEng" type="CharField">Челябинская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="74">
+        <field name="codeSap" type="CharField">75</field>
+        <field name="sapName" type="CharField">Chita</field>
+        <field name="nameEng" type="CharField">Читинская область</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="75">
+        <field name="codeSap" type="CharField">76</field>
+        <field name="sapName" type="CharField">Yaroslavl</field>
+        <field name="nameEng" type="CharField">Ярославская область</field>
+        <field name="mainRegion" type="CharField">N.Novgorod</field>
+    </object>
+    <object model="reporting.region" pk="76">
+        <field name="codeSap" type="CharField">77</field>
+        <field name="sapName" type="CharField">Moscow</field>
+        <field name="nameEng" type="CharField">Город Москва Столица РФ</field>
+        <field name="mainRegion" type="CharField">Central region</field>
+    </object>
+    <object model="reporting.region" pk="77">
+        <field name="codeSap" type="CharField">78</field>
+        <field name="sapName" type="CharField">St-Petersburg</field>
+        <field name="nameEng" type="CharField">Санкт-Петербург</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="78">
+        <field name="codeSap" type="CharField">79</field>
+        <field name="sapName" type="CharField">Evreyskaya avton.</field>
+        <field name="nameEng" type="CharField">Еврейская автон.обл.</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="79">
+        <field name="codeSap" type="CharField">80</field>
+        <field name="sapName" type="CharField">DUMMY</field>
+        <field name="nameEng" type="CharField">DUMMY</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="80">
+        <field name="codeSap" type="CharField">83</field>
+        <field name="sapName" type="CharField">Nenezkiy AO</field>
+        <field name="nameEng" type="CharField">Ненецкий АО</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="81">
+        <field name="codeSap" type="CharField">86</field>
+        <field name="sapName" type="CharField">Chanty-Mansiyskiy AO</field>
+        <field name="nameEng" type="CharField">Ханты-Мансийский АО</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="82">
+        <field name="codeSap" type="CharField">87</field>
+        <field name="sapName" type="CharField">Chukotskiy AO</field>
+        <field name="nameEng" type="CharField">Чукотский АО</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="83">
+        <field name="codeSap" type="CharField">89</field>
+        <field name="sapName" type="CharField">Yamalo-Nenezkiy AO</field>
+        <field name="nameEng" type="CharField">Ямало-Ненецкий АО</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="84">
+        <field name="codeSap" type="CharField">91</field>
+        <field name="sapName" type="CharField">Krym Republic</field>
+        <field name="nameEng" type="CharField">Республика Крым</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="85">
+        <field name="codeSap" type="CharField">92</field>
+        <field name="sapName" type="CharField">Sevastopol</field>
+        <field name="nameEng" type="CharField">Севастополь</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="86">
+        <field name="codeSap" type="CharField">95</field>
+        <field name="sapName" type="CharField">Chechenya</field>
+        <field name="nameEng" type="CharField">Чеченская Республика</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="87">
+        <field name="codeSap" type="CharField">BK</field>
+        <field name="sapName" type="CharField">Baykonur</field>
+        <field name="nameEng" type="CharField">Байконур</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.region" pk="88">
+        <field name="codeSap" type="CharField">RU</field>
+        <field name="sapName" type="CharField">Russian Fed.</field>
+        <field name="nameEng" type="CharField">прочие регионы</field>
+        <field name="mainRegion" type="CharField">Other</field>
+    </object>
+    <object model="reporting.warehouse" pk="1">
+        <field name="whCode" type="CharField">1</field>
+        <field name="whName" type="CharField">VOS</field>
+    </object>
+    <object model="reporting.warehouse" pk="2">
+        <field name="whCode" type="CharField">5</field>
+        <field name="whName" type="CharField">FER</field>
+    </object>
+    <object model="reporting.warehouse" pk="3">
+        <field name="whCode" type="CharField">U101</field>
+        <field name="whName" type="CharField">SHU</field>
+    </object>
+    <object model="reporting.warehouse" pk="4">
+        <field name="whCode" type="CharField">U102</field>
+        <field name="whName" type="CharField">VOL</field>
+    </object>
+    <object model="reporting.warehouse" pk="5">
+        <field name="whCode" type="CharField">U132</field>
+        <field name="whName" type="CharField">KAZ</field>
+    </object>
+    <object model="reporting.warehouse" pk="6">
+        <field name="whCode" type="CharField">U140</field>
+        <field name="whName" type="CharField">KZ</field>
+    </object>
+    <object model="reporting.warehouse" pk="7">
+        <field name="whCode" type="CharField">U131</field>
+        <field name="whName" type="CharField">KAZ</field>
+    </object>
+    <object model="reporting.warehouse" pk="8">
+        <field name="whCode" type="CharField">U152</field>
+        <field name="whName" type="CharField">VOL</field>
+    </object>
+    <object model="reporting.productname" pk="1">
+        <field name="productName" type="CharField">ПОРТЛАНДЦЕМЕНТ ПЦ500-Д0Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Н</field>
+    </object>
+    <object model="reporting.productname" pk="2">
+        <field name="productName" type="CharField">ТЕХНОЛОГИЧЕСКИЙ ЦЕМЕНТ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="3">
+        <field name="productName" type="CharField">ЦЕМ I 42,5 Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="4">
+        <field name="productName" type="CharField">ЦЕМ I 42,5 Б ПАЛЛЕТЫ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="5">
+        <field name="productName" type="CharField">ЦЕМ I 42,5 Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Н</field>
+    </object>
+    <object model="reporting.productname" pk="6">
+        <field name="productName" type="CharField">ЦЕМ II/А-К (Ш-И) 42,5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К (Ш-И) 42.5 Н</field>
+    </object>
+    <object model="reporting.productname" pk="7">
+        <field name="productName" type="CharField">ЦЕМ II/А-К (Ш-И) 42,5Н ПАЛЛЕТЫ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К (Ш-И) 42.5 Н</field>
+    </object>
+    <object model="reporting.productname" pk="8">
+        <field name="productName" type="CharField">ПОРТЛАНДЦЕМЕНТ ПЦ 400-Д5 НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="9">
+        <field name="productName" type="CharField">ПОРТЛАНДЦЕМЕНТ ПЦ400Д20Б ПАЛЕТ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 32.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="10">
+        <field name="productName" type="CharField">ЦЕМ I 32,5 Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="11">
+        <field name="productName" type="CharField">ЦЕМ II/А-З 42,5 Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-З 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="12">
+        <field name="productName" type="CharField">ЦЕМ II/А-З 42,5 Б ПАЛЛЕТЫ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-З 42.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="13">
+        <field name="productName" type="CharField">ЦЕМ II/А-Ш 32,5 Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 32.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="14">
+        <field name="productName" type="CharField">ЦЕМ II/А-Ш 32,5 Б ПАЛЛЕТЫ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 32.5 Б</field>
+    </object>
+    <object model="reporting.productname" pk="15">
+        <field name="productName" type="CharField">*ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="16">
+        <field name="productName" type="CharField">*ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="17">
+        <field name="productName" type="CharField">*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="18">
+        <field name="productName" type="CharField">*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-П) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="19">
+        <field name="productName" type="CharField">*ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="20">
+        <field name="productName" type="CharField">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/В-Ш 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="21">
+        <field name="productName" type="CharField">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/В-Ш 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="22">
+        <field name="productName" type="CharField">*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="23">
+        <field name="productName" type="CharField">*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ССПЦ 400 Д20</field>
+    </object>
+    <object model="reporting.productname" pk="24">
+        <field name="productName" type="CharField">ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="25">
+        <field name="productName" type="CharField">ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="26">
+        <field name="productName" type="CharField">ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="27">
+        <field name="productName" type="CharField">ЦЕМ II/А-И 42.5Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-И 42.5Б</field>
+    </object>
+    <object model="reporting.productname" pk="28">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="29">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="30">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-П) 32.5Б</field>
+    </object>
+    <object model="reporting.productname" pk="31">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-П) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="32">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-П) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="33">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ССПЦ 400 Д20</field>
+    </object>
+    <object model="reporting.productname" pk="34">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ</field>
+        <field name="commonName" type="CharField">ССПЦ 400 Д20</field>
+    </object>
+    <object model="reporting.productname" pk="35">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ</field>
+        <field name="commonName" type="CharField">ССПЦ 400 Д20</field>
+    </object>
+    <object model="reporting.productname" pk="36">
+        <field name="productName" type="CharField">ЦЕМ II/А-Ш 32.5Б НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 32.5Б</field>
+    </object>
+    <object model="reporting.productname" pk="37">
+        <field name="productName" type="CharField">ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="38">
+        <field name="productName" type="CharField">ЦЕМ II/В-Ш 32.5Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/В-Ш 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="39">
+        <field name="productName" type="CharField">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/В-Ш 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="40">
+        <field name="productName" type="CharField">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/В-Ш 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="41">
+        <field name="productName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="42">
+        <field name="productName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="43">
+        <field name="productName" type="CharField">ОСНОВА ДЛЯ РАСТВОРОВ</field>
+        <field name="commonName" type="CharField">MASONRY 22.5</field>
+    </object>
+    <object model="reporting.productname" pk="44">
+        <field name="productName" type="CharField">ОСНОВА ДЛЯ РАСТВОРОВ/ KELMA 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">MASONRY 22.5</field>
+    </object>
+    <object model="reporting.productname" pk="45">
+        <field name="productName" type="CharField">ПЦ 500-Д0-Н НАВАЛ</field>
+        <field name="commonName" type="CharField">ПЦ 500-Д0-Н</field>
+    </object>
+    <object model="reporting.productname" pk="46">
+        <field name="productName" type="CharField">ПЦБ 1-500-Д0 НАВАЛ</field>
+        <field name="commonName" type="CharField">ПЦБ 1-500-Д0</field>
+    </object>
+    <object model="reporting.productname" pk="47">
+        <field name="productName" type="CharField">ПЦБ 1-500-Д0/ DECOCEM 50КГ</field>
+        <field name="commonName" type="CharField">ПЦБ 1-500-Д0</field>
+    </object>
+    <object model="reporting.productname" pk="48">
+        <field name="productName" type="CharField">ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ПЦБ 1-500-Д0</field>
+    </object>
+    <object model="reporting.productname" pk="49">
+        <field name="productName" type="CharField">ПЦБ1-500-Д0/ DECOCEM 1000КГ</field>
+        <field name="commonName" type="CharField">ПЦБ 1-500-Д0</field>
+    </object>
+    <object model="reporting.productname" pk="50">
+        <field name="productName" type="CharField">ПЦ 500-Д0-Н 1000КГ</field>
+        <field name="commonName" type="CharField">ПЦ 500 Д0-Н</field>
+    </object>
+    <object model="reporting.productname" pk="51">
+        <field name="productName" type="CharField">ПЦТ I-50 1000КГ</field>
+        <field name="commonName" type="CharField">ПЦТ-I-50</field>
+    </object>
+    <object model="reporting.productname" pk="52">
+        <field name="productName" type="CharField">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ</field>
+        <field name="commonName" type="CharField">ПЦТ I-G-СС-I</field>
+    </object>
+    <object model="reporting.productname" pk="53">
+        <field name="productName" type="CharField">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ</field>
+        <field name="commonName" type="CharField">ПЦТ I-G-СС-I</field>
+    </object>
+    <object model="reporting.productname" pk="54">
+        <field name="productName" type="CharField">ПЦТ II-50 1000КГ</field>
+        <field name="commonName" type="CharField">ПЦТ-II-50</field>
+    </object>
+    <object model="reporting.productname" pk="55">
+        <field name="productName" type="CharField">EXTRACEM</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-Ш 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="56">
+        <field name="productName" type="CharField">ССПЦ 500 Д20 НАВАЛ</field>
+        <field name="commonName" type="CharField">ССПЦ 500 Д20</field>
+    </object>
+    <object model="reporting.productname" pk="57">
+        <field name="productName" type="CharField">ПЦТ-I-50</field>
+        <field name="commonName" type="CharField">ПЦТ-I-50</field>
+    </object>
+    <object model="reporting.productname" pk="58">
+        <field name="productName" type="CharField">АВТОДОСТАВКА В ДВА АДРЕСА</field>
+        <field name="commonName" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.productname" pk="59">
+        <field name="productName" type="CharField">АВТОДОСТАВКА С НЕПОЛНОЙ ЗАГРУЗКОЙ</field>
+        <field name="commonName" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.productname" pk="60">
+        <field name="productName" type="CharField">КОМБО МАШИНА</field>
+        <field name="commonName" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.productname" pk="61">
+        <field name="productName" type="CharField">КОМБО Ж.Д. ВАГОН</field>
+        <field name="commonName" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.productname" pk="62">
+        <field name="productName" type="CharField">АВТОДОСТАВКА В МАШИНЕ-МАНИПУЛЯТОРЕ</field>
+        <field name="commonName" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.productname" pk="63">
+        <field name="productName" type="CharField">ШТРАФЫ</field>
+        <field name="commonName" type="CharField">PENALTY</field>
+    </object>
+    <object model="reporting.productname" pk="64">
+        <field name="productName" type="CharField">ЦЕМ I 42.5Н 1000КГ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="65">
+        <field name="productName" type="CharField">ЦЕМ I 42,5 Н ДП НАВАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ I 42.5 Н</field>
+    </object>
+    <object model="reporting.productname" pk="66">
+        <field name="productName" type="CharField">ЦЕМ II/В-Ш 32.5Н/NORMOCEM 25 КГ</field>
+        <field name="commonName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="67">
+        <field name="productName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 25КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ V/А(Ш-П) 32.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="68">
+        <field name="productName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 25КГ ПАЛ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="69">
+        <field name="productName" type="CharField">ЦЕМЕНТ EXTRACEM 500, 25 КГ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-К(Ш-И) 42.5Н</field>
+    </object>
+    <object model="reporting.productname" pk="70">
+        <field name="productName" type="CharField">ЦЕМ II А-И 42,5 Н </field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-И 42,5 Н </field>
+    </object>
+    <object model="reporting.productname" pk="71">
+        <field name="productName" type="CharField">ЦЕМ II А-И 42,5 Н ПАЛЛЕТЫ</field>
+        <field name="commonName" type="CharField">ЦЕМ II/А-И 42,5 Н </field>
+    </object>
+    <object model="reporting.productname" pk="72">
+        <field name="productName" type="CharField">ОСНОВА ДЛЯ РАСТВОРОВ 50КГ ПАЛ</field>
+        <field name="commonName" type="CharField">MASONRY 22.5</field>
+    </object>
+    <object model="reporting.package" pk="14">
+        <field name="package" type="CharField">BULK</field>
+    </object>
+    <object model="reporting.package" pk="15">
+        <field name="package" type="CharField">BAG</field>
+    </object>
+    <object model="reporting.package" pk="16">
+        <field name="package" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.subpackage" pk="1">
+        <field name="subPackage" type="CharField">BULK</field>
+    </object>
+    <object model="reporting.subpackage" pk="2">
+        <field name="subPackage" type="CharField">PALLETS 50 KG</field>
+    </object>
+    <object model="reporting.subpackage" pk="3">
+        <field name="subPackage" type="CharField">PALLETS 25 KG</field>
+    </object>
+    <object model="reporting.subpackage" pk="4">
+        <field name="subPackage" type="CharField">BIG BAGS</field>
+    </object>
+    <object model="reporting.subpackage" pk="5">
+        <field name="subPackage" type="CharField">BAGS</field>
+    </object>
+    <object model="reporting.subpackage" pk="6">
+        <field name="subPackage" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.subpackage" pk="7">
+        <field name="subPackage" type="CharField">PENALTY</field>
+    </object>
+    <object model="reporting.type" pk="1">
+        <field name="type" type="CharField">GREY CEMENT</field>
+    </object>
+    <object model="reporting.type" pk="2">
+        <field name="type" type="CharField">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.type" pk="3">
+        <field name="type" type="CharField">GOST CEMENT</field>
+    </object>
+    <object model="reporting.type" pk="4">
+        <field name="type" type="CharField">API CEMENT</field>
+    </object>
+    <object model="reporting.type" pk="5">
+        <field name="type" type="CharField">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="1">
+        <field name="pr" type="CharField">72470</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПОРТЛАНДЦЕМЕНТ ПЦ500-Д0Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="2">
+        <field name="pr" type="CharField">72638</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ТЕХНОЛОГИЧЕСКИЙ ЦЕМЕНТ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="3">
+        <field name="pr" type="CharField">72630</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="4">
+        <field name="pr" type="CharField">72636</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Б ПАЛЛЕТЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="5">
+        <field name="pr" type="CharField">72632</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="6">
+        <field name="pr" type="CharField">72711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К (Ш-И) 42,5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="7">
+        <field name="pr" type="CharField">72712</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К (Ш-И) 42,5Н ПАЛЛЕТЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="8">
+        <field name="pr" type="CharField">72412</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПОРТЛАНДЦЕМЕНТ ПЦ 400-Д5 НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="9">
+        <field name="pr" type="CharField">37951</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПОРТЛАНДЦЕМЕНТ ПЦ400Д20Б ПАЛЕТ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="10">
+        <field name="pr" type="CharField">72614</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 32,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="11">
+        <field name="pr" type="CharField">72630</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="12">
+        <field name="pr" type="CharField">72717</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="13">
+        <field name="pr" type="CharField">72612</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-З 42,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="14">
+        <field name="pr" type="CharField">72619</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-З 42,5 Б ПАЛЛЕТЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="15">
+        <field name="pr" type="CharField">72615</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 32,5 Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="16">
+        <field name="pr" type="CharField">39992</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 32,5 Б ПАЛЛЕТЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="17">
+        <field name="pr" type="CharField">14002680</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="18">
+        <field name="pr" type="CharField">14003122</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="19">
+        <field name="pr" type="CharField">14002945</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="20">
+        <field name="pr" type="CharField">14002972</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="21">
+        <field name="pr" type="CharField">14002681</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="22">
+        <field name="pr" type="CharField">14002947</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="23">
+        <field name="pr" type="CharField">14002944</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="24">
+        <field name="pr" type="CharField">14002948</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="25">
+        <field name="pr" type="CharField">14002970</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="26">
+        <field name="pr" type="CharField">14002991</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="27">
+        <field name="pr" type="CharField">14002949</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="28">
+        <field name="pr" type="CharField">14002410</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="29">
+        <field name="pr" type="CharField">14002402</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="30">
+        <field name="pr" type="CharField">14002939</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="31">
+        <field name="pr" type="CharField">14003120</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="32">
+        <field name="pr" type="CharField">14003121</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="33">
+        <field name="pr" type="CharField">14002932</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-И 42.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="34">
+        <field name="pr" type="CharField">14002391</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="35">
+        <field name="pr" type="CharField">14002397</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="36">
+        <field name="pr" type="CharField">14002590</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="37">
+        <field name="pr" type="CharField">14002392</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="38">
+        <field name="pr" type="CharField">14002390</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="39">
+        <field name="pr" type="CharField">14002415</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="40">
+        <field name="pr" type="CharField">14002594</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="41">
+        <field name="pr" type="CharField">14002393</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="42">
+        <field name="pr" type="CharField">14002593</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="43">
+        <field name="pr" type="CharField">14002412</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="44">
+        <field name="pr" type="CharField">14002396</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="45">
+        <field name="pr" type="CharField">14002400</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 32.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="46">
+        <field name="pr" type="CharField">14002395</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="47">
+        <field name="pr" type="CharField">14002408</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="48">
+        <field name="pr" type="CharField">14002403</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="49">
+        <field name="pr" type="CharField">14002401</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="50">
+        <field name="pr" type="CharField">14002591</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="51">
+        <field name="pr" type="CharField">14002751</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="52">
+        <field name="pr" type="CharField">14003090</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="53">
+        <field name="pr" type="CharField">14002409</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="54">
+        <field name="pr" type="CharField">14002592</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="55">
+        <field name="pr" type="CharField">14002407</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="56">
+        <field name="pr" type="CharField">14002595</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="57">
+        <field name="pr" type="CharField">14002992</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="58">
+        <field name="pr" type="CharField">14002986</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="59">
+        <field name="pr" type="CharField">14003041</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ОСНОВА ДЛЯ РАСТВОРОВ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="60">
+        <field name="pr" type="CharField">14003042</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ОСНОВА ДЛЯ РАСТВОРОВ/ KELMA 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="61">
+        <field name="pr" type="CharField">14002713</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦ 500-Д0-Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="62">
+        <field name="pr" type="CharField">14002394</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0 НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="63">
+        <field name="pr" type="CharField">14002406</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="64">
+        <field name="pr" type="CharField">14002405</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="65">
+        <field name="pr" type="CharField">14002974</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="66">
+        <field name="pr" type="CharField">14002399</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ1-500-Д0/ DECOCEM 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="67">
+        <field name="pr" type="CharField">14002411</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦ 500-Д0-Н 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="68">
+        <field name="pr" type="CharField">14002404</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦ 500-Д0-Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="69">
+        <field name="pr" type="CharField">14002414</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-50 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GOST CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="70">
+        <field name="pr" type="CharField">14002418</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">API CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="71">
+        <field name="pr" type="CharField">14002389</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">API CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="72">
+        <field name="pr" type="CharField">14002417</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ II-50 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GOST CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="73">
+        <field name="pr" type="CharField">14002988</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="74">
+        <field name="pr" type="CharField">1410739</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="75">
+        <field name="pr" type="CharField">1414150</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="76">
+        <field name="pr" type="CharField">1413710</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="77">
+        <field name="pr" type="CharField">1412881</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="78">
+        <field name="pr" type="CharField">1413598</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="79">
+        <field name="pr" type="CharField">1412641</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="80">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="81">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="82">
+        <field name="pr" type="CharField">1413258</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="83">
+        <field name="pr" type="CharField">1413951</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="84">
+        <field name="pr" type="CharField">1410739</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="85">
+        <field name="pr" type="CharField">1414093</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-И 42.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="86">
+        <field name="pr" type="CharField">1414092</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="87">
+        <field name="pr" type="CharField">1414150</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="88">
+        <field name="pr" type="CharField">1414150</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="89">
+        <field name="pr" type="CharField">1413520</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="90">
+        <field name="pr" type="CharField">1413505</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="91">
+        <field name="pr" type="CharField">1413710</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="92">
+        <field name="pr" type="CharField">1413710</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="93">
+        <field name="pr" type="CharField">1413258</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="94">
+        <field name="pr" type="CharField">1413258</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="95">
+        <field name="pr" type="CharField">1410419</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="96">
+        <field name="pr" type="CharField">1409958</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="97">
+        <field name="pr" type="CharField">1412673</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 32.5Б НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="98">
+        <field name="pr" type="CharField">1412881</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-Ш 42.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="99">
+        <field name="pr" type="CharField">1409944</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="100">
+        <field name="pr" type="CharField">1412647</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="101">
+        <field name="pr" type="CharField">1413598</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="102">
+        <field name="pr" type="CharField">1413598</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="103">
+        <field name="pr" type="CharField">1412641</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="104">
+        <field name="pr" type="CharField">1412641</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="105">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="106">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="107">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="108">
+        <field name="pr" type="CharField">1412647</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="109">
+        <field name="pr" type="CharField">1409946</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0 НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="110">
+        <field name="pr" type="CharField">1409947</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="111">
+        <field name="pr" type="CharField">1412644</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="112">
+        <field name="pr" type="CharField">1412644</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="113">
+        <field name="pr" type="CharField">1411388</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦБ1-500-Д0/ DECOCEM 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">WHITE CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="114">
+        <field name="pr" type="CharField">1409960</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦ 500-Д0-Н 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="115">
+        <field name="pr" type="CharField">1409959</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦ 500-Д0-Н НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="116">
+        <field name="pr" type="CharField">1411455</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-50 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GOST CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="117">
+        <field name="pr" type="CharField">1409961</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">API CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="118">
+        <field name="pr" type="CharField">1409963</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">API CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="119">
+        <field name="pr" type="CharField">1411453</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ II-50 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GOST CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="120">
+        <field name="pr" type="CharField">1413711</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="121">
+        <field name="pr" type="CharField">1412883</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">EXTRACEM</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="122">
+        <field name="pr" type="CharField">1409964</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ССПЦ 500 Д20 НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="123">
+        <field name="pr" type="CharField">14002413</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ПЦТ-I-50</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GOST CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="124">
+        <field name="pr" type="CharField">60006562</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">АВТОДОСТАВКА В ДВА АДРЕСА</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">SERVICE</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="125">
+        <field name="pr" type="CharField">60006563</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">АВТОДОСТАВКА С НЕПОЛНОЙ ЗАГРУЗКОЙ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">SERVICE</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="126">
+        <field name="pr" type="CharField">60006564</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">КОМБО МАШИНА</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">SERVICE</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="127">
+        <field name="pr" type="CharField">60006565</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">КОМБО Ж.Д. ВАГОН</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">SERVICE</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="128">
+        <field name="pr" type="CharField">60006566</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">АВТОДОСТАВКА В МАШИНЕ-МАНИПУЛЯТОРЕ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">SERVICE</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="129">
+        <field name="pr" type="CharField">1909283</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse"><None></None></field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ШТРАФЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">SERVICE</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PENALTY</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">SERVICE</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="130">
+        <field name="pr" type="CharField">14002982</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42.5Н 1000КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BIG BAGS</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="131">
+        <field name="pr" type="CharField">72719</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ I 42,5 Н ДП НАВАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="132">
+        <field name="pr" type="CharField">14003252</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/В-Ш 32.5Н/NORMOCEM 25 КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="133">
+        <field name="pr" type="CharField">14003263</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U102</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="134">
+        <field name="pr" type="CharField">14003262</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 25КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="135">
+        <field name="pr" type="CharField">14003265</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМЕНТ EXTRACEM 500, 25 КГ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 25 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="136">
+        <field name="pr" type="CharField">999999</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II А-И 42,5 Н </field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BULK</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">BULK</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="137">
+        <field name="pr" type="CharField">999998</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ЦЕМ II А-И 42,5 Н ПАЛЛЕТЫ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.cementproductiontype" pk="138">
+        <field name="pr" type="CharField">14003372</field>
+        <field name="whCode" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+        <field name="productName" rel="ManyToOneRel" to="reporting.productname">ОСНОВА ДЛЯ РАСТВОРОВ 50КГ ПАЛ</field>
+        <field name="package" rel="ManyToOneRel" to="reporting.package">BAG</field>
+        <field name="subPackage" rel="ManyToOneRel" to="reporting.subpackage">PALLETS 50 KG</field>
+        <field name="type" rel="ManyToOneRel" to="reporting.type">GREY CEMENT</field>
+    </object>
+    <object model="reporting.transportwith" pk="1">
+        <field name="transportWith" type="CharField">WATER</field>
+    </object>
+    <object model="reporting.transportwith" pk="2">
+        <field name="transportWith" type="CharField">ROAD</field>
+    </object>
+    <object model="reporting.transportwith" pk="3">
+        <field name="transportWith" type="CharField">RAIL</field>
+    </object>
+    <object model="reporting.transporthow" pk="4">
+        <field name="transportHow" type="CharField">DELIVERY</field>
+    </object>
+    <object model="reporting.transporthow" pk="5">
+        <field name="transportHow" type="CharField">PICKUP</field>
+    </object>
+    <object model="reporting.transporttype" pk="1">
+        <field name="transportCode" type="CharField">4</field>
+        <field name="typeName" type="CharField">TRANSPORT BY VESSEL/SHIP</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="2">
+        <field name="transportCode" type="CharField">5</field>
+        <field name="typeName" type="CharField">CUSTOMER PICK-UP TRUCK</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">PICKUP</field>
+    </object>
+    <object model="reporting.transporttype" pk="3">
+        <field name="transportCode" type="CharField">10</field>
+        <field name="typeName" type="CharField">CUSTOMER PICK-UP RAILWAY</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">RAIL</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">PICKUP</field>
+    </object>
+    <object model="reporting.transporttype" pk="4">
+        <field name="transportCode" type="CharField">13</field>
+        <field name="typeName" type="CharField">OWN TRUCK DELIVERY BULK CEMENT</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="5">
+        <field name="transportCode" type="CharField">15</field>
+        <field name="typeName" type="CharField">PICK UP BAGS AGENT</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">PICKUP</field>
+    </object>
+    <object model="reporting.transporttype" pk="6">
+        <field name="transportCode" type="CharField">17</field>
+        <field name="typeName" type="CharField">LAFARGE TRANSPORT OF CLINKER</field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="7">
+        <field name="transportCode" type="CharField">CFR</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">RAIL</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="8">
+        <field name="transportCode" type="CharField">CIF</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="9">
+        <field name="transportCode" type="CharField">CPT</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="10">
+        <field name="transportCode" type="CharField">DAP</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">RAIL</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">PICKUP</field>
+    </object>
+    <object model="reporting.transporttype" pk="11">
+        <field name="transportCode" type="CharField">DAP1</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="12">
+        <field name="transportCode" type="CharField">DAT</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="13">
+        <field name="transportCode" type="CharField">DDP</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">RAIL</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">DELIVERY</field>
+    </object>
+    <object model="reporting.transporttype" pk="14">
+        <field name="transportCode" type="CharField">EXW</field>
+        <field name="typeName" type="CharField"></field>
+        <field name="transportWith" rel="ManyToOneRel" to="reporting.transportwith">ROAD</field>
+        <field name="transportHow" rel="ManyToOneRel" to="reporting.transporthow">PICKUP</field>
+    </object>
+    <object model="reporting.intercompany" pk="1">
+        <field name="code" type="CharField">104058</field>
+        <field name="name" type="CharField">ОАО "ХОЛСИМ (РУС) СМ"</field>
+        <field name="transportFrom" rel="ManyToOneRel" to="reporting.warehouse">5</field>
+        <field name="transportTo" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+    </object>
+    <object model="reporting.intercompany" pk="2">
+        <field name="code" type="CharField">104058</field>
+        <field name="name" type="CharField">ОАО "ХОЛСИМ (РУС) СМ"</field>
+        <field name="transportFrom" rel="ManyToOneRel" to="reporting.warehouse">1</field>
+        <field name="transportTo" rel="ManyToOneRel" to="reporting.warehouse">U101</field>
+    </object>
+</django-objects>

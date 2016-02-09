@@ -1,0 +1,2 @@
+Выгрузка БД модели 'reporting':
+python manage.py dumpdata --indent 4 --format xml reporting > reporting.xml

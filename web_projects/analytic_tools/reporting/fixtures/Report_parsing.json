@@ -1,0 +1,602 @@
+[
+  {
+    "model": "reporting.transaction",
+    "pk": 1,
+    "fields": {
+      "accountName": "ООО ЭнергоЖБИ",
+      "nameShipTo": "ООО ЭнергоЖБИ",
+      "cementProductionCode": "72615",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-01",
+      "shippedVolume": 20.2,
+      "shippedAmount": 60620.2
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 2,
+    "fields": {
+      "accountName": "ЗАО \"ТД \"Очаковский ЖБИ\"",
+      "nameShipTo": "ЗАО \"ТД \"Очаковский ЖБИ\"(Москва)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-01",
+      "shippedVolume": 24.75,
+      "shippedAmount": 80462.25
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 3,
+    "fields": {
+      "accountName": "ООО \"Русь-Бетон\"",
+      "nameShipTo": "ООО \"Русь-Бетон\" (Домодедово) (ФЕР)",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Гончаров Андрей Александрович",
+      "date": "2016-02-01",
+      "shippedVolume": 48.8,
+      "shippedAmount": 159234.4
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 4,
+    "fields": {
+      "accountName": "ООО \"МосБлоки\"",
+      "nameShipTo": "ООО \"МосБлоки\" (д.Жилино) ВОС",
+      "cementProductionCode": "72717",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Ефимов Александр Андреевич",
+      "date": "2016-02-01",
+      "shippedVolume": 24.7,
+      "shippedAmount": 84572.8
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 5,
+    "fields": {
+      "accountName": "ООО \"НСС\"",
+      "nameShipTo": "ООО \"НСС\" (Обнинск)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "KALUGA REGION (OBLAST)",
+      "salesRepresentative": "Ефимов Александр Андреевич",
+      "date": "2016-02-01",
+      "shippedVolume": 99.45,
+      "shippedAmount": 318538.35
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 6,
+    "fields": {
+      "accountName": "АО \"Воскресенский ДСК\"",
+      "nameShipTo": "АО \"Воскресенский ДСК\"",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Мажара Вячеслав Валериевич",
+      "date": "2016-02-01",
+      "shippedVolume": 74.6,
+      "shippedAmount": 233945.6
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 7,
+    "fields": {
+      "accountName": "ООО \"ВосЦемБетон\"",
+      "nameShipTo": "ООО \"ВосЦемБетон\"",
+      "cementProductionCode": "72615",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Мажара Вячеслав Валериевич",
+      "date": "2016-02-01",
+      "shippedVolume": 59.95,
+      "shippedAmount": 169658.5
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 8,
+    "fields": {
+      "accountName": "ООО \"КСМ\" (Балаклавский пр.)",
+      "nameShipTo": "ООО \"КСМ\" (Балаклавский пр.)",
+      "cementProductionCode": "72630",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Размахов Вадим Сергеевич",
+      "date": "2016-02-01",
+      "shippedVolume": 66.2,
+      "shippedAmount": 181189.4
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 9,
+    "fields": {
+      "accountName": "ООО \"КСМ\" (Балаклавский пр.)",
+      "nameShipTo": "ООО \"ТоргБетон\"(Машковский пр.)(КСМ)_ФЕР",
+      "cementProductionCode": "72711",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Размахов Вадим Сергеевич",
+      "date": "2016-02-01",
+      "shippedVolume": 67.95,
+      "shippedAmount": 202355.1
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 10,
+    "fields": {
+      "accountName": "ООО \"База-Бетон\"",
+      "nameShipTo": "ООО \"База-Бетон\"",
+      "cementProductionCode": "72615",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Ракитин Станислав Борисович",
+      "date": "2016-02-01",
+      "shippedVolume": 24.9,
+      "shippedAmount": 71712
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 11,
+    "fields": {
+      "accountName": "ООО \"НОВОЕ ИЗМЕРЕНИЕ\"",
+      "nameShipTo": "ООО\"НОВОЕ ИЗМЕРЕНИЕ\"(Новоив)_кредит_ФЕР",
+      "cementProductionCode": "72711",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-01",
+      "shippedVolume": 93.75,
+      "shippedAmount": 278250
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 12,
+    "fields": {
+      "accountName": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "nameShipTo": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "cementProductionCode": "72630",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-01",
+      "shippedVolume": 21.7,
+      "shippedAmount": 59392.9
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 13,
+    "fields": {
+      "accountName": "ООО \"ЭПСБ\"",
+      "nameShipTo": "ООО \"ЭПСБ\" (д. Часцы) ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Яремко Роман Николаевич",
+      "date": "2016-02-01",
+      "shippedVolume": 23.65,
+      "shippedAmount": 79913.35
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 14,
+    "fields": {
+      "accountName": "ООО ЭнергоЖБИ",
+      "nameShipTo": "ООО ЭнергоЖБИ",
+      "cementProductionCode": "72615",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 20.25,
+      "shippedAmount": 60770.25
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 15,
+    "fields": {
+      "accountName": "ООО \"СОДРУЖЕСТВО-ЯП\"",
+      "nameShipTo": "ООО \"СОДРУЖЕСТВО-ЯП\" (ФЕР)",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 99.55,
+      "shippedAmount": 343347.95
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 16,
+    "fields": {
+      "accountName": "ООО \"БЛОК\"",
+      "nameShipTo": "ООО \"БЛОК\" (Ожерелки)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 48.6,
+      "shippedAmount": 166406.4
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 17,
+    "fields": {
+      "accountName": "ЗАО \"ТД \"Очаковский ЖБИ\"",
+      "nameShipTo": "ЗАО \"ТД \"Очаковский ЖБИ\"(Москва)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW",
+      "salesRepresentative": "Агатий Андрей Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 24.9,
+      "shippedAmount": 80949.9
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 18,
+    "fields": {
+      "accountName": "ИП Кузьмин Олег Николаевич",
+      "nameShipTo": "ИП Кузьмин Олег Николаевич",
+      "cementProductionCode": "72630",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "SMOLENSK REGION (OBLAST)",
+      "salesRepresentative": "Белевский Руслан Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 23.75,
+      "shippedAmount": 72532.5
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 19,
+    "fields": {
+      "accountName": "ООО \"РосСнаб Калуга\"",
+      "nameShipTo": "ООО \"РосСнаб Калуга\"(Академ.проезд)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "KALUGA REGION (OBLAST)",
+      "salesRepresentative": "Белевский Руслан Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 48.95,
+      "shippedAmount": 163003.5
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 20,
+    "fields": {
+      "accountName": "ООО \"ТриЛ\"",
+      "nameShipTo": "Об. п. ООО \"Бетон-ОЭЗ\" (Алабушево)_ВОС",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW",
+      "salesRepresentative": "Гончаров Андрей Александрович",
+      "date": "2016-02-02",
+      "shippedVolume": 27.3,
+      "shippedAmount": 85612.8
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 21,
+    "fields": {
+      "accountName": "ООО \"Русь-Бетон\"",
+      "nameShipTo": "ООО \"Русь-Бетон\" (Домодедово) (ФЕР)",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Гончаров Андрей Александрович",
+      "date": "2016-02-02",
+      "shippedVolume": 24.65,
+      "shippedAmount": 80432.95
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 22,
+    "fields": {
+      "accountName": "ООО \"Мир-Строй\"",
+      "nameShipTo": "ООО \"Мир-Строй\"(д. Митрополье)_ВОС",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Комаров Александр Васильевич",
+      "date": "2016-02-02",
+      "shippedVolume": 25.2,
+      "shippedAmount": 85428
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 23,
+    "fields": {
+      "accountName": "ООО \"БетонАктив\"",
+      "nameShipTo": "ООО \"БетонАктив\" (Саларьево)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW",
+      "salesRepresentative": "Комаров Александр Васильевич",
+      "date": "2016-02-02",
+      "shippedVolume": 25,
+      "shippedAmount": 86850
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 24,
+    "fields": {
+      "accountName": "ООО \"Стройбетон\" г. Малоярославец",
+      "nameShipTo": "ООО \"Стройбетон\" (Колонтай)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "KALUGA REGION (OBLAST)",
+      "salesRepresentative": "Комаров Павел Юрьевич",
+      "date": "2016-02-02",
+      "shippedVolume": 24.85,
+      "shippedAmount": 81085.55
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 25,
+    "fields": {
+      "accountName": "АО \"Воскресенский ДСК\"",
+      "nameShipTo": "АО \"Воскресенский ДСК\"",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Мажара Вячеслав Валериевич",
+      "date": "2016-02-02",
+      "shippedVolume": 50.35,
+      "shippedAmount": 157897.6
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 26,
+    "fields": {
+      "accountName": "ООО \"ВосЦемБетон\"",
+      "nameShipTo": "ООО \"ВосЦемБетон\"",
+      "cementProductionCode": "72615",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Мажара Вячеслав Валериевич",
+      "date": "2016-02-02",
+      "shippedVolume": 64.5,
+      "shippedAmount": 182535
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 27,
+    "fields": {
+      "accountName": "ООО \"ВосЦемБетон\"",
+      "nameShipTo": "ООО \"ВосЦемБетон\"",
+      "cementProductionCode": "72717",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Мажара Вячеслав Валериевич",
+      "date": "2016-02-02",
+      "shippedVolume": 25.2,
+      "shippedAmount": 75171.6
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 28,
+    "fields": {
+      "accountName": "ООО \"КСМ\" (Балаклавский пр.)",
+      "nameShipTo": "ООО \"КСМ\" (Балаклавский пр.)",
+      "cementProductionCode": "72630",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Размахов Вадим Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 24.75,
+      "shippedAmount": 67740.75
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 29,
+    "fields": {
+      "accountName": "ООО \"КСМ\" (Балаклавский пр.)",
+      "nameShipTo": "ООО \"ТоргБетон\"(Машковский пр.)(КСМ)_ФЕР",
+      "cementProductionCode": "72711",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Размахов Вадим Сергеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 25,
+      "shippedAmount": 74450
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 30,
+    "fields": {
+      "accountName": "ООО \"База-Бетон\"",
+      "nameShipTo": "ООО \"База-Бетон\"_ВОС",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Ракитин Станислав Борисович",
+      "date": "2016-02-02",
+      "shippedVolume": 44.3,
+      "shippedAmount": 137595.8
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 31,
+    "fields": {
+      "accountName": "ООО \"Славянский Базар\"",
+      "nameShipTo": "ООО \"Славянский Базар\"(Каширский дв)_ФЕР",
+      "cementProductionCode": "72712",
+      "transportName": "TRANSPORT BY VESSEL/SHIP",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Ревякин Илья Валерьевич",
+      "date": "2016-02-02",
+      "shippedVolume": 21.2,
+      "shippedAmount": 75938.4
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 32,
+    "fields": {
+      "accountName": "ООО \"МагнитСервис\"",
+      "nameShipTo": "ООО \"МагнитСервис\"(д. Мотяково)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 26.15,
+      "shippedAmount": 89066.9
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 33,
+    "fields": {
+      "accountName": "ООО \"НОВОЕ ИЗМЕРЕНИЕ\"",
+      "nameShipTo": "ООО\"НОВОЕ ИЗМЕРЕНИЕ\"(Новоив)_кредит_ФЕР",
+      "cementProductionCode": "72711",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 170.15,
+      "shippedAmount": 505005.2
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 34,
+    "fields": {
+      "accountName": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "nameShipTo": "ООО \"Герико\" (Одинцово)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 24.7,
+      "shippedAmount": 76989.9
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 35,
+    "fields": {
+      "accountName": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "nameShipTo": "ООО \"РУССКИЙ СТРОИТЕЛЬ\"",
+      "cementProductionCode": "72630",
+      "transportName": "CUSTOMER PICK-UP TRUCK",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-02",
+      "shippedVolume": 45.95,
+      "shippedAmount": 125765.15
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 36,
+    "fields": {
+      "accountName": "ООО \"ХСТФ \"ФОБОС\"",
+      "nameShipTo": "ООО \"ХСТФ \"ФОБОС\" - автодоставка",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Фролов Роман Алексеевич",
+      "date": "2016-02-02",
+      "shippedVolume": 24.75,
+      "shippedAmount": 85734
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 37,
+    "fields": {
+      "accountName": "ООО \"НСС\"",
+      "nameShipTo": "ООО \"НСС\" (Обнинск)_ФЕР",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "KALUGA REGION (OBLAST)",
+      "salesRepresentative": "Ефимов Александр Андреевич",
+      "date": "2016-02-03",
+      "shippedVolume": 48.75,
+      "shippedAmount": 156146.25
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 38,
+    "fields": {
+      "accountName": "ООО \"СПС\"",
+      "nameShipTo": "ООО \"СПС\" (д.Добрино) (ФЕР)",
+      "cementProductionCode": "72630",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "KALUGA REGION (OBLAST)",
+      "salesRepresentative": "Ефимов Александр Андреевич",
+      "date": "2016-02-03",
+      "shippedVolume": 25.8,
+      "shippedAmount": 86920.2
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 39,
+    "fields": {
+      "accountName": "ООО \"База-Бетон\"",
+      "nameShipTo": "ООО \"База-Бетон\"_ВОС",
+      "cementProductionCode": "72615",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Ракитин Станислав Борисович",
+      "date": "2016-02-03",
+      "shippedVolume": 25.1,
+      "shippedAmount": 77960.6
+    }
+  },
+  {
+    "model": "reporting.transaction",
+    "pk": 40,
+    "fields": {
+      "accountName": "ООО \"НОВОЕ ИЗМЕРЕНИЕ\"",
+      "nameShipTo": "ООО\"НОВОЕ ИЗМЕРЕНИЕ\"(Новоив)_кредит_ФЕР",
+      "cementProductionCode": "72711",
+      "transportName": "OWN TRUCK DELIVERY BULK CEMENT",
+      "regionName": "MOSCOW REGION (OBLAST)",
+      "salesRepresentative": "Тарасов Денис Андреевич",
+      "date": "2016-02-03",
+      "shippedVolume": 72.2,
+      "shippedAmount": 214289.6
+    }
+  }
+]

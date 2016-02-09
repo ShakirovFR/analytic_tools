@@ -1,0 +1,2303 @@
+[
+  {
+    "model": "reporting.Warehouse",
+    "pk": 1,
+    "fields": {
+      "warehouseName": "FER",
+      "warehouseCode": 5
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 2,
+    "fields": {
+      "warehouseName": "KAZ",
+      "warehouseCode": "U132"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 3,
+    "fields": {
+      "warehouseName": "KAZ_OLD",
+      "warehouseCode": "U131"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 4,
+    "fields": {
+      "warehouseName": "KZ",
+      "warehouseCode": "U140"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 5,
+    "fields": {
+      "warehouseName": "SERVICE",
+      "warehouseCode": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 6,
+    "fields": {
+      "warehouseName": "SHU",
+      "warehouseCode": "U101"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 7,
+    "fields": {
+      "warehouseName": "VOL",
+      "warehouseCode": "U102"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 8,
+    "fields": {
+      "warehouseName": "VOL_WATER",
+      "warehouseCode": "U152"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 9,
+    "fields": {
+      "warehouseName": "VOS",
+      "warehouseCode": 1
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 1,
+    "fields": {
+      "productName": "*ЦЕМ I 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 2,
+    "fields": {
+      "productName": "*ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 3,
+    "fields": {
+      "productName": "*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-И) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 4,
+    "fields": {
+      "productName": "*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-П) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 5,
+    "fields": {
+      "productName": "*ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ II/А-Ш 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 6,
+    "fields": {
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "commonName": "ЦЕМ II/В-Ш 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 7,
+    "fields": {
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/В-Ш 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 8,
+    "fields": {
+      "productName": "*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ V/А(Ш-П) 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 9,
+    "fields": {
+      "productName": "*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "commonName": "ССПЦ 400 Д20"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 10,
+    "fields": {
+      "productName": "EXTRACEM",
+      "commonName": "ЦЕМ II/А-Ш 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 11,
+    "fields": {
+      "productName": "АВТОДОСТАВКА В ДВА АДРЕСА",
+      "commonName": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 12,
+    "fields": {
+      "productName": "АВТОДОСТАВКА В МАШИНЕ-МАНИПУЛЯТОРЕ",
+      "commonName": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 13,
+    "fields": {
+      "productName": "АВТОДОСТАВКА С НЕПОЛНОЙ ЗАГРУЗКОЙ",
+      "commonName": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 14,
+    "fields": {
+      "productName": "КОМБО Ж.Д. ВАГОН",
+      "commonName": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 15,
+    "fields": {
+      "productName": "КОМБО МАШИНА",
+      "commonName": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 16,
+    "fields": {
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ",
+      "commonName": "MASONRY 22.5"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 17,
+    "fields": {
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ 50КГ ПАЛ",
+      "commonName": "MASONRY 22.5"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 18,
+    "fields": {
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ/ KELMA 50КГ ПАЛ",
+      "commonName": "MASONRY 22.5"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 19,
+    "fields": {
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ 400-Д5 НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 20,
+    "fields": {
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ400Д20Б ПАЛЕТ",
+      "commonName": "ЦЕМ II/А-Ш 32.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 21,
+    "fields": {
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ500-Д0Н НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 22,
+    "fields": {
+      "productName": "ПЦ 500-Д0-Н 1000КГ",
+      "commonName": "ПЦ 500 Д0-Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 23,
+    "fields": {
+      "productName": "ПЦ 500-Д0-Н НАВАЛ",
+      "commonName": "ПЦ 500-Д0-Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 24,
+    "fields": {
+      "productName": "ПЦБ 1-500-Д0 НАВАЛ",
+      "commonName": "ПЦБ 1-500-Д0"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 25,
+    "fields": {
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ",
+      "commonName": "ПЦБ 1-500-Д0"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 26,
+    "fields": {
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ",
+      "commonName": "ПЦБ 1-500-Д0"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 27,
+    "fields": {
+      "productName": "ПЦБ1-500-Д0/ DECOCEM 1000КГ",
+      "commonName": "ПЦБ 1-500-Д0"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 28,
+    "fields": {
+      "productName": "ПЦТ I-50 1000КГ",
+      "commonName": "ПЦТ-I-50"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 29,
+    "fields": {
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ",
+      "commonName": "ПЦТ I-G-СС-I"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 30,
+    "fields": {
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ",
+      "commonName": "ПЦТ I-G-СС-I"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 31,
+    "fields": {
+      "productName": "ПЦТ II-50 1000КГ",
+      "commonName": "ПЦТ-II-50"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 32,
+    "fields": {
+      "productName": "ПЦТ-I-50",
+      "commonName": "ПЦТ-I-50"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 33,
+    "fields": {
+      "productName": "ССПЦ 500 Д20 НАВАЛ",
+      "commonName": "ССПЦ 500 Д20"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 34,
+    "fields": {
+      "productName": "ТЕХНОЛОГИЧЕСКИЙ ЦЕМЕНТ",
+      "commonName": "ЦЕМ I 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 35,
+    "fields": {
+      "productName": "ЦЕМ I 32,5 Б НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 36,
+    "fields": {
+      "productName": "ЦЕМ I 42,5 Б НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 37,
+    "fields": {
+      "productName": "ЦЕМ I 42,5 Б ПАЛЛЕТЫ",
+      "commonName": "ЦЕМ I 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 38,
+    "fields": {
+      "productName": "ЦЕМ I 42,5 Н ДП НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 39,
+    "fields": {
+      "productName": "ЦЕМ I 42,5 Н НАВАЛ",
+      "commonName": "ЦЕМ I 42.5 Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 40,
+    "fields": {
+      "productName": "ЦЕМ I 42.5Н 1000КГ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 41,
+    "fields": {
+      "productName": "ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 42,
+    "fields": {
+      "productName": "ЦЕМ I 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 43,
+    "fields": {
+      "productName": "ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ I 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 44,
+    "fields": {
+      "productName": "ЦЕМ II А-И 42,5 Н ",
+      "commonName": "ЦЕМ II/А-И 42,5 Н "
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 45,
+    "fields": {
+      "productName": "ЦЕМ II А-И 42,5 Н ПАЛЛЕТЫ",
+      "commonName": "ЦЕМ II/А-И 42,5 Н "
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 46,
+    "fields": {
+      "productName": "ЦЕМ II/А-З 42,5 Б НАВАЛ",
+      "commonName": "ЦЕМ II/А-З 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 47,
+    "fields": {
+      "productName": "ЦЕМ II/А-З 42,5 Б ПАЛЛЕТЫ",
+      "commonName": "ЦЕМ II/А-З 42.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 48,
+    "fields": {
+      "productName": "ЦЕМ II/А-И 42.5Б НАВАЛ",
+      "commonName": "ЦЕМ II/А-И 42.5Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 49,
+    "fields": {
+      "productName": "ЦЕМ II/А-К (Ш-И) 42,5Н НАВАЛ",
+      "commonName": "ЦЕМ II/А-К (Ш-И) 42.5 Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 50,
+    "fields": {
+      "productName": "ЦЕМ II/А-К (Ш-И) 42,5Н ПАЛЛЕТЫ",
+      "commonName": "ЦЕМ II/А-К (Ш-И) 42.5 Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 51,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-И) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 52,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 25КГ ПАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-И) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 53,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-И) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 54,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-П) 32.5Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 55,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-П) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 56,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/А-К(Ш-П) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 57,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "commonName": "ССПЦ 400 Д20"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 58,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ",
+      "commonName": "ССПЦ 400 Д20"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 59,
+    "fields": {
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ",
+      "commonName": "ССПЦ 400 Д20"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 60,
+    "fields": {
+      "productName": "ЦЕМ II/А-Ш 32,5 Б НАВАЛ",
+      "commonName": "ЦЕМ II/А-Ш 32.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 61,
+    "fields": {
+      "productName": "ЦЕМ II/А-Ш 32,5 Б ПАЛЛЕТЫ",
+      "commonName": "ЦЕМ II/А-Ш 32.5 Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 62,
+    "fields": {
+      "productName": "ЦЕМ II/А-Ш 32.5Б НАВАЛ",
+      "commonName": "ЦЕМ II/А-Ш 32.5Б"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 63,
+    "fields": {
+      "productName": "ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "commonName": "ЦЕМ II/А-Ш 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 64,
+    "fields": {
+      "productName": "ЦЕМ II/В-Ш 32.5Н НАВАЛ",
+      "commonName": "ЦЕМ II/В-Ш 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 65,
+    "fields": {
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "commonName": "ЦЕМ II/В-Ш 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 66,
+    "fields": {
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ II/В-Ш 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 67,
+    "fields": {
+      "productName": "ЦЕМ II/В-Ш 32.5Н/NORMOCEM 25 КГ",
+      "commonName": "ЦЕМ V/А(Ш-П) 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 68,
+    "fields": {
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 25КГ ПАЛ",
+      "commonName": "ЦЕМ V/А(Ш-П) 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 69,
+    "fields": {
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ",
+      "commonName": "ЦЕМ V/А(Ш-П) 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 70,
+    "fields": {
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ",
+      "commonName": "ЦЕМ V/А(Ш-П) 32.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 71,
+    "fields": {
+      "productName": "ЦЕМЕНТ EXTRA CEM 500, 25 КГ",
+      "commonName": "ЦЕМ II/А-К(Ш-И) 42.5Н"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 72,
+    "fields": {
+      "productName": "ШТРАФЫ",
+      "commonName": "PENALTY"
+    }
+  },
+  {
+    "model": "reporting.Package",
+    "pk": 1,
+    "fields": {
+      "package": "BAG"
+    }
+  },
+  {
+    "model": "reporting.Package",
+    "pk": 2,
+    "fields": {
+      "package": "BULK"
+    }
+  },
+  {
+    "model": "reporting.Package",
+    "pk": 3,
+    "fields": {
+      "package": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 1,
+    "fields": {
+      "subPackage": "BAGS"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 2,
+    "fields": {
+      "subPackage": "BIG BAGS"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 3,
+    "fields": {
+      "subPackage": "BULK"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 4,
+    "fields": {
+      "subPackage": "PALLETS 25 KG"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 5,
+    "fields": {
+      "subPackage": "PALLETS 50 KG"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 6,
+    "fields": {
+      "subPackage": "PENALTY"
+    }
+  },
+  {
+    "model": "reporting.SubPackage",
+    "pk": 7,
+    "fields": {
+      "subPackage": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductType",
+    "pk": 1,
+    "fields": {
+      "productType": "API CEMENT"
+    }
+  },
+  {
+    "model": "reporting.ProductType",
+    "pk": 2,
+    "fields": {
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.ProductType",
+    "pk": 3,
+    "fields": {
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.ProductType",
+    "pk": 4,
+    "fields": {
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.ProductType",
+    "pk": 5,
+    "fields": {
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 1,
+    "fields": {
+      "cementProductionCode": "14002389",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "API CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 2,
+    "fields": {
+      "cementProductionCode": "14002390",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 3,
+    "fields": {
+      "cementProductionCode": "14002391",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 4,
+    "fields": {
+      "cementProductionCode": "14002392",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 5,
+    "fields": {
+      "cementProductionCode": "14002393",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 6,
+    "fields": {
+      "cementProductionCode": "14002394",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0 НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 7,
+    "fields": {
+      "cementProductionCode": "14002395",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 8,
+    "fields": {
+      "cementProductionCode": "14002396",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 9,
+    "fields": {
+      "cementProductionCode": "14002397",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 10,
+    "fields": {
+      "cementProductionCode": "14002399",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ1-500-Д0/ DECOCEM 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 11,
+    "fields": {
+      "cementProductionCode": "14002400",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-Ш 32.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 12,
+    "fields": {
+      "cementProductionCode": "14002401",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 13,
+    "fields": {
+      "cementProductionCode": "14002402",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ I 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 14,
+    "fields": {
+      "cementProductionCode": "14002403",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 15,
+    "fields": {
+      "cementProductionCode": "14002404",
+      "warehouseName": "VOL",
+      "productName": "ПЦ 500-Д0-Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 16,
+    "fields": {
+      "cementProductionCode": "14002405",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 17,
+    "fields": {
+      "cementProductionCode": "14002406",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ",
+      "package": "BAG",
+      "subPackage": "BAGS",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 18,
+    "fields": {
+      "cementProductionCode": "14002407",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 19,
+    "fields": {
+      "cementProductionCode": "14002408",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 20,
+    "fields": {
+      "cementProductionCode": "14002409",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 21,
+    "fields": {
+      "cementProductionCode": "14002410",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 22,
+    "fields": {
+      "cementProductionCode": "14002411",
+      "warehouseName": "VOL",
+      "productName": "ПЦ 500-Д0-Н 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 23,
+    "fields": {
+      "cementProductionCode": "14002412",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 24,
+    "fields": {
+      "cementProductionCode": "14002413",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ-I-50",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 25,
+    "fields": {
+      "cementProductionCode": "14002414",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-50 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 26,
+    "fields": {
+      "cementProductionCode": "14002415",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 27,
+    "fields": {
+      "cementProductionCode": "14002417",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ II-50 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 28,
+    "fields": {
+      "cementProductionCode": "14002418",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "API CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 29,
+    "fields": {
+      "cementProductionCode": "14002590",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 30,
+    "fields": {
+      "cementProductionCode": "14002591",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 31,
+    "fields": {
+      "cementProductionCode": "14002592",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 32,
+    "fields": {
+      "cementProductionCode": "14002593",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 33,
+    "fields": {
+      "cementProductionCode": "14002594",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 34,
+    "fields": {
+      "cementProductionCode": "14002595",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 35,
+    "fields": {
+      "cementProductionCode": "14002680",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ I 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 36,
+    "fields": {
+      "cementProductionCode": "14002681",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 37,
+    "fields": {
+      "cementProductionCode": "14002713",
+      "warehouseName": "SHU",
+      "productName": "ПЦ 500-Д0-Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 38,
+    "fields": {
+      "cementProductionCode": "14002751",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 39,
+    "fields": {
+      "cementProductionCode": "14002932",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-И 42.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 40,
+    "fields": {
+      "cementProductionCode": "14002939",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ I 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 41,
+    "fields": {
+      "cementProductionCode": "14002944",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 42,
+    "fields": {
+      "cementProductionCode": "14002945",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 43,
+    "fields": {
+      "cementProductionCode": "14002947",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 44,
+    "fields": {
+      "cementProductionCode": "14002948",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 45,
+    "fields": {
+      "cementProductionCode": "14002949",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 46,
+    "fields": {
+      "cementProductionCode": "14002970",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 47,
+    "fields": {
+      "cementProductionCode": "14002972",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 48,
+    "fields": {
+      "cementProductionCode": "14002974",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 49,
+    "fields": {
+      "cementProductionCode": "14002982",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ I 42.5Н 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 50,
+    "fields": {
+      "cementProductionCode": "14002986",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 51,
+    "fields": {
+      "cementProductionCode": "14002988",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 52,
+    "fields": {
+      "cementProductionCode": "14002991",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 53,
+    "fields": {
+      "cementProductionCode": "14002992",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 54,
+    "fields": {
+      "cementProductionCode": "14003041",
+      "warehouseName": "SHU",
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 55,
+    "fields": {
+      "cementProductionCode": "14003042",
+      "warehouseName": "SHU",
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ/ KELMA 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 56,
+    "fields": {
+      "cementProductionCode": "14003090",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 57,
+    "fields": {
+      "cementProductionCode": "14003120",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 58,
+    "fields": {
+      "cementProductionCode": "14003121",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 59,
+    "fields": {
+      "cementProductionCode": "14003122",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ I 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 60,
+    "fields": {
+      "cementProductionCode": "14003252",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/NORMOCEM 25 КГ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 61,
+    "fields": {
+      "cementProductionCode": "14003262",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 62,
+    "fields": {
+      "cementProductionCode": "14003263",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 63,
+    "fields": {
+      "cementProductionCode": "14003265",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМЕНТ EXTRA CEM 500, 25 КГ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 64,
+    "fields": {
+      "cementProductionCode": "14003372",
+      "warehouseName": "SHU",
+      "productName": "ОСНОВА ДЛЯ РАСТВОРОВ 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 65,
+    "fields": {
+      "cementProductionCode": "1409944",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 66,
+    "fields": {
+      "cementProductionCode": "1409946",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0 НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 67,
+    "fields": {
+      "cementProductionCode": "1409947",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ",
+      "package": "BAG",
+      "subPackage": "BAGS",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 68,
+    "fields": {
+      "cementProductionCode": "1409958",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 69,
+    "fields": {
+      "cementProductionCode": "1409959",
+      "warehouseName": "VOL",
+      "productName": "ПЦ 500-Д0-Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 70,
+    "fields": {
+      "cementProductionCode": "1409960",
+      "warehouseName": "VOL",
+      "productName": "ПЦ 500-Д0-Н 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 71,
+    "fields": {
+      "cementProductionCode": "1409961",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "API CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 72,
+    "fields": {
+      "cementProductionCode": "1409963",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-G-СС-1/G HSR APISPEC10A24ED НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "API CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 73,
+    "fields": {
+      "cementProductionCode": "1409964",
+      "warehouseName": "VOL",
+      "productName": "ССПЦ 500 Д20 НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 74,
+    "fields": {
+      "cementProductionCode": "1410419",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БСС 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 75,
+    "fields": {
+      "cementProductionCode": "1410739*",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ I 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 76,
+    "fields": {
+      "cementProductionCode": "1410739",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ I 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 77,
+    "fields": {
+      "cementProductionCode": "1411388",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ1-500-Д0/ DECOCEM 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 78,
+    "fields": {
+      "cementProductionCode": "1411453",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ II-50 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 79,
+    "fields": {
+      "cementProductionCode": "1411455",
+      "warehouseName": "VOL",
+      "productName": "ПЦТ I-50 1000КГ",
+      "package": "BULK",
+      "subPackage": "BIG BAGS",
+      "productType": "GOST CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 80,
+    "fields": {
+      "cementProductionCode": "1412641*",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 81,
+    "fields": {
+      "cementProductionCode": "1412641",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 82,
+    "fields": {
+      "cementProductionCode": "1412644",
+      "warehouseName": "SHU",
+      "productName": "ПЦБ 1-500-Д0/ DECOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "WHITE CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 83,
+    "fields": {
+      "cementProductionCode": "1412647_old",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 84,
+    "fields": {
+      "cementProductionCode": "1412647",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 85,
+    "fields": {
+      "cementProductionCode": "1412673",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-Ш 32.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 86,
+    "fields": {
+      "cementProductionCode": "1412881*",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 87,
+    "fields": {
+      "cementProductionCode": "1412881",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-Ш 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 88,
+    "fields": {
+      "cementProductionCode": "1412883",
+      "warehouseName": "SHU",
+      "productName": "EXTRACEM",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 89,
+    "fields": {
+      "cementProductionCode": "1413258*",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМII/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 90,
+    "fields": {
+      "cementProductionCode": "1413258",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П)32.5БCC/SULFOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 91,
+    "fields": {
+      "cementProductionCode": "1413505",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 92,
+    "fields": {
+      "cementProductionCode": "1413520",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 32.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 93,
+    "fields": {
+      "cementProductionCode": "1413598*",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 94,
+    "fields": {
+      "cementProductionCode": "1413598",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 25КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 25 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 95,
+    "fields": {
+      "cementProductionCode": "1413710*",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ II/А-К(Ш-П) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 96,
+    "fields": {
+      "cementProductionCode": "1413710",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/А-К(Ш-П) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 97,
+    "fields": {
+      "cementProductionCode": "1413711*_old",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 98,
+    "fields": {
+      "cementProductionCode": "1413711*",
+      "warehouseName": "VOL",
+      "productName": "*ЦЕМ V/А(Ш-П)32.5Н NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 99,
+    "fields": {
+      "cementProductionCode": "1413711_old",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ II/В-Ш 32.5Н/ NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 100,
+    "fields": {
+      "cementProductionCode": "1413711",
+      "warehouseName": "VOL",
+      "productName": "ЦЕМ V/А(Ш-П) 32.5Н NORMOCEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 101,
+    "fields": {
+      "cementProductionCode": "1413951",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ I 42.5Н ДП(ЖИ) НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 102,
+    "fields": {
+      "cementProductionCode": "1414092",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 103,
+    "fields": {
+      "cementProductionCode": "1414093",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-И 42.5Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 104,
+    "fields": {
+      "cementProductionCode": "1414150*",
+      "warehouseName": "SHU",
+      "productName": "*ЦЕМ II/А-К(Ш-И) 42.5Н/EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 105,
+    "fields": {
+      "cementProductionCode": "1414150",
+      "warehouseName": "SHU",
+      "productName": "ЦЕМ II/А-К(Ш-И) 42.5Н/ EXTRACEM 50КГ ПАЛ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 106,
+    "fields": {
+      "cementProductionCode": "1909283",
+      "warehouseName": "SERVICE",
+      "productName": "ШТРАФЫ",
+      "package": "SERVICE",
+      "subPackage": "PENALTY",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 107,
+    "fields": {
+      "cementProductionCode": "37951",
+      "warehouseName": "VOS",
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ400Д20Б ПАЛЕТ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 108,
+    "fields": {
+      "cementProductionCode": "39992",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ II/А-Ш 32,5 Б ПАЛЛЕТЫ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 109,
+    "fields": {
+      "cementProductionCode": "60006562",
+      "warehouseName": "SERVICE",
+      "productName": "АВТОДОСТАВКА В ДВА АДРЕСА",
+      "package": "SERVICE",
+      "subPackage": "SERVICE",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 110,
+    "fields": {
+      "cementProductionCode": "60006563",
+      "warehouseName": "SERVICE",
+      "productName": "АВТОДОСТАВКА С НЕПОЛНОЙ ЗАГРУЗКОЙ",
+      "package": "SERVICE",
+      "subPackage": "SERVICE",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 111,
+    "fields": {
+      "cementProductionCode": "60006564",
+      "warehouseName": "SERVICE",
+      "productName": "КОМБО МАШИНА",
+      "package": "SERVICE",
+      "subPackage": "SERVICE",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 112,
+    "fields": {
+      "cementProductionCode": "60006565",
+      "warehouseName": "SERVICE",
+      "productName": "КОМБО Ж.Д. ВАГОН",
+      "package": "SERVICE",
+      "subPackage": "SERVICE",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 113,
+    "fields": {
+      "cementProductionCode": "60006566",
+      "warehouseName": "SERVICE",
+      "productName": "АВТОДОСТАВКА В МАШИНЕ-МАНИПУЛЯТОРЕ",
+      "package": "SERVICE",
+      "subPackage": "SERVICE",
+      "productType": "SERVICE"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 114,
+    "fields": {
+      "cementProductionCode": "72412",
+      "warehouseName": "VOS",
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ 400-Д5 НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 115,
+    "fields": {
+      "cementProductionCode": "72470",
+      "warehouseName": "FER",
+      "productName": "ПОРТЛАНДЦЕМЕНТ ПЦ500-Д0Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 116,
+    "fields": {
+      "cementProductionCode": "72612",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ II/А-З 42,5 Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 117,
+    "fields": {
+      "cementProductionCode": "72614",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ I 32,5 Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 118,
+    "fields": {
+      "cementProductionCode": "72615",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ II/А-Ш 32,5 Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 119,
+    "fields": {
+      "cementProductionCode": "72619",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ II/А-З 42,5 Б ПАЛЛЕТЫ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 120,
+    "fields": {
+      "cementProductionCode": "72630",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ I 42,5 Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 121,
+    "fields": {
+      "cementProductionCode": "72632",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ I 42,5 Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 122,
+    "fields": {
+      "cementProductionCode": "72636",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ I 42,5 Б ПАЛЛЕТЫ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 123,
+    "fields": {
+      "cementProductionCode": "72638",
+      "warehouseName": "FER",
+      "productName": "ТЕХНОЛОГИЧЕСКИЙ ЦЕМЕНТ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 124,
+    "fields": {
+      "cementProductionCode": "72711",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ II/А-К (Ш-И) 42,5Н НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 125,
+    "fields": {
+      "cementProductionCode": "72712",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ II/А-К (Ш-И) 42,5Н ПАЛЛЕТЫ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 126,
+    "fields": {
+      "cementProductionCode": "72717",
+      "warehouseName": "VOS",
+      "productName": "ЦЕМ I 42,5 Б НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 127,
+    "fields": {
+      "cementProductionCode": "72719",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ I 42,5 Н ДП НАВАЛ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 128,
+    "fields": {
+      "cementProductionCode": "999998",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ II А-И 42,5 Н ПАЛЛЕТЫ",
+      "package": "BAG",
+      "subPackage": "PALLETS 50 KG",
+      "productType": "GREY CEMENT"
+    }
+  },
+  {
+    "model": "reporting.CementProductionType",
+    "pk": 129,
+    "fields": {
+      "cementProductionCode": "999999",
+      "warehouseName": "FER",
+      "productName": "ЦЕМ II А-И 42,5 Н ",
+      "package": "BULK",
+      "subPackage": "BULK",
+      "productType": "GREY CEMENT"
+    }
+  }
+]
