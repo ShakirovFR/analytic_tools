@@ -34,7 +34,7 @@ class Group(models.Model):
 		return str(self.code)
 
 class SoldTo(models.Model):
-	code	= models.ForeignKey(Unification, to_field = 'code')
+	code	= models.OneToOneField(Unification)
 	CVM		= models.ForeignKey(CVM, to_field = 'name', blank = True, null = True)
 	group	= models.ForeignKey(Group, to_field = 'code', blank = True, null = True)
 	def __str__(self):
@@ -68,7 +68,7 @@ class Region(models.Model):
 		return str(self.name)
 
 class ShipTo(models.Model):
-	code	= models.ForeignKey(Unification, to_field = 'code')
+	code	= models.OneToOneField(Unification)
 	PSA		= models.ForeignKey(PSA, to_field = 'name', blank = True, null = True)
 	region	= models.ForeignKey(Region, to_field = 'name', blank = True, null = True)
 	def __str__(self):
@@ -158,7 +158,7 @@ class Transaction(models.Model):
 	warehouseCode		= models.ForeignKey(Warehouse, to_field = 'code', related_name = '+')
 	intercompanyCode	= models.ForeignKey(Warehouse, to_field = 'code', blank = True, null = True)
 	shippedVolume		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
-	shippedAmount		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	shippedAmount		= models.DecimalField(max_digits = 15, decimal_places = 2)
 	def __str__(self):
 		return str(self.date) + '-' + str(self.shipToCode) + '-' + str(self.productCode)
 
@@ -187,6 +187,7 @@ class Delivery(models.Model):
 		return str(self.warehouseCode) + '-' + str(self.shipToCode) + '-' + str(self.transportCode)
 
 class EBITDA(models.Model):
+	transaction					= models.OneToOneField(Transaction)
 	# warehouseProduction
 	# warehoseDelivering
 	# warehouseIntercompany
@@ -207,17 +208,19 @@ class EBITDA(models.Model):
 	# shipToRegion
 	# deliveryForm	
 	# deliveryMethod
-	# deliveryRoadDistance
-	# deliveryRailDistance
+	deliveryRoadDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
+	deliveryRailDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
+	deliveryWaterDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
 	# salesOffice
 	# salesRepresentative
 	# shippedVolume
 	# shippedAmount
-	transaction					= models.OneToOneField(Transaction)
 	tKmRoad						= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	tKmRail						= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	tKmWater					= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	outboundFreightRoad			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	outboundFreightRail			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	outboundFreightWater		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	packingMaterial				= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	shippingStation				= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	CMN							= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
@@ -233,6 +236,7 @@ class EBITDA(models.Model):
 	netSalesPrice				= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	outboundFreightRoad_t		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	outboundFreightRail_t		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	outboundFreightWater_t		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	packingMaterial_t			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	shippingStation_t			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	CMN_t						= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
