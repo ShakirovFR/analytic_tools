@@ -26,7 +26,7 @@ class CVM(models.Model):
 	code	= models.CharField(max_length = 5, unique = True)
 	name	= models.CharField(max_length = 30, unique = True)
 	def __str__(self):
-		return str(self.name)
+		return str(self.code)
 
 class Group(models.Model):
 	code	= models.IntegerField(unique = True)
@@ -35,7 +35,7 @@ class Group(models.Model):
 
 class SoldTo(models.Model):
 	code	= models.OneToOneField(Unification)
-	CVM		= models.ForeignKey(CVM, to_field = 'name', blank = True, null = True)
+	CVM		= models.ForeignKey(CVM, to_field = 'code', blank = True, null = True)
 	group	= models.ForeignKey(Group, to_field = 'code', blank = True, null = True)
 	def __str__(self):
 		return str(self.code)
@@ -46,13 +46,13 @@ class PSA(models.Model):
 	code	= models.CharField(max_length = 5, unique = True)
 	name	= models.CharField(max_length = 30, unique = True)
 	def __str__(self):
-		return str(self.name)
+		return str(self.code)
 
 class Country(models.Model):
 	code	= models.CharField(max_length = 3, unique = True)
 	name	= models.CharField(max_length = 30, unique = True)
 	def __str__(self):
-		return str(self.name)
+		return str(self.code)
 
 class Area(models.Model):
 	name	= models.CharField(max_length = 30, unique = True)
@@ -69,7 +69,7 @@ class Region(models.Model):
 
 class ShipTo(models.Model):
 	code	= models.OneToOneField(Unification)
-	PSA		= models.ForeignKey(PSA, to_field = 'name', blank = True, null = True)
+	PSA		= models.ForeignKey(PSA, to_field = 'code', blank = True, null = True)
 	region	= models.ForeignKey(Region, to_field = 'name', blank = True, null = True)
 	def __str__(self):
 		return str(self.code)
@@ -131,7 +131,7 @@ class Transport(models.Model):
 	deliveryForm	= models.ForeignKey(DeliveryForm, to_field = 'name')
 	deliveryMethod	= models.ForeignKey(DeliveryMethod, to_field = 'name')
 	def __str__(self):
-		return str(self.name)
+		return str(self.code)
 
 ###################################################################################################
 
@@ -174,7 +174,7 @@ class Prediction(models.Model):
 	estVolume	= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	estNetSales	= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	def __str__(self):
-		return str(self.date)
+		return str(self.date) + '-' + str(self.productCode)
 
 ###################################################################################################
 
@@ -182,7 +182,7 @@ class Delivery(models.Model):
 	warehouseCode	= models.ForeignKey(Warehouse, to_field = 'code')
 	shipToCode		= models.ForeignKey(Unification, to_field = 'code')
 	transportCode	= models.ForeignKey(Transport, to_field = 'code')
-	distance		= models.DecimalField(max_digits = 15, decimal_places = 0)
+	distance		= models.IntegerField()
 	def __str__(self):
 		return str(self.warehouseCode) + '-' + str(self.shipToCode) + '-' + str(self.transportCode)
 
@@ -208,9 +208,9 @@ class EBITDA(models.Model):
 	# shipToRegion
 	# deliveryForm	
 	# deliveryMethod
-	deliveryRoadDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
-	deliveryRailDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
-	deliveryWaterDistance		= models.DecimalField(max_digits = 15, decimal_places = 0, blank = True, null = True)
+	deliveryRoadDistance		= models.IntegerField(blank = True, null = True)
+	deliveryRailDistance		= models.IntegerField(blank = True, null = True)
+	deliveryWaterDistance		= models.IntegerField(blank = True, null = True)
 	# salesOffice
 	# salesRepresentative
 	# shippedVolume
