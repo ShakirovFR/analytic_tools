@@ -148,6 +148,16 @@ class SalesRepresentative(models.Model):
 
 ###################################################################################################
 
+class Delivery(models.Model):
+	warehouseCode	= models.ForeignKey(Warehouse, to_field = 'code')
+	shipToCode		= models.ForeignKey(Unification, to_field = 'code')
+	transportCode	= models.ForeignKey(Transport, to_field = 'code')
+	distance		= models.IntegerField()
+	def __str__(self):
+		return str(self.warehouseCode) + '-' + str(self.shipToCode) + '-' + str(self.transportCode)
+
+###################################################################################################
+
 class Transaction(models.Model):
 	date				= models.DateField()
 	soldToCode			= models.ForeignKey(Unification, to_field = 'code', related_name = '+')
@@ -178,13 +188,46 @@ class Prediction(models.Model):
 
 ###################################################################################################
 
-class Delivery(models.Model):
-	warehouseCode	= models.ForeignKey(Warehouse, to_field = 'code')
-	shipToCode		= models.ForeignKey(Unification, to_field = 'code')
-	transportCode	= models.ForeignKey(Transport, to_field = 'code')
-	distance		= models.IntegerField()
+class ProductionExpense(models.Model):
+	monthAndYear	= models.CharField(max_length = 7, unique = True)
+	productCode		= models.ForeignKey(Product, to_field = 'code')
+	variable		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	fixed			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	IM				= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
 	def __str__(self):
-		return str(self.warehouseCode) + '-' + str(self.shipToCode) + '-' + str(self.transportCode)
+		return str(self.monthAndYear)
+
+class OtherExpense(models.Model):
+	monthAndYear		= models.CharField(max_length = 7, unique = True)
+	administration		= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	marketingAndSales	= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+	def __str__(self):
+		return str(self.monthAndYear)
+
+###################################################################################################
+
+class CostType(models.Model):
+	name	= models.CharField(max_length = 30, unique = True)
+	def __str__(self):
+		return str(self.name)
+
+class CostElement(models.Model):
+	name	= models.CharField(max_length = 30, unique = True)
+	def __str__(self):
+		return str(self.name)
+
+class Distribution(models.Model):
+	monthAndYear		= models.CharField(max_length = 7, unique = True)
+	costCenter			= models.CharField(max_length = 9)
+	warehouseCode		= models.ForeignKey(Warehouse, to_field = 'code')
+	costType			= models.ForeignKey(CostType, to_field = 'name')
+	productType			= models.ForeignKey(ProductType, to_field = 'name')
+	deliveryMethod		= models.ForeignKey(DeliveryMethod, to_field = 'name')
+	subpackage			= models.ForeignKey(Subpackage, to_field = 'name')
+	costElement			= models.ForeignKey(CostElement, to_field = 'name')
+	monthAmount			= models.DecimalField(max_digits = 15, decimal_places = 2, blank = True, null = True)
+
+###################################################################################################
 
 class EBITDA(models.Model):
 	transaction					= models.OneToOneField(Transaction)

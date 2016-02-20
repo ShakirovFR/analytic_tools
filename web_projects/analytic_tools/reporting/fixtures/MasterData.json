@@ -1,0 +1,101 @@
+[
+  {
+    "model": "reporting.Warehouse",
+    "pk": 1,
+    "fields": {
+      "code": 1,
+      "name": "VOS"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 2,
+    "fields": {
+      "code": 5,
+      "name": "FER"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 3,
+    "fields": {
+      "code": "U101",
+      "name": "SHU"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 4,
+    "fields": {
+      "code": "U102",
+      "name": "VOL"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 5,
+    "fields": {
+      "code": "U132",
+      "name": "KAZ"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 6,
+    "fields": {
+      "code": "U140",
+      "name": "KZ"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 7,
+    "fields": {
+      "code": "U131",
+      "name": "KAZ"
+    }
+  },
+  {
+    "model": "reporting.Warehouse",
+    "pk": 8,
+    "fields": {
+      "code": "U152",
+      "name": "VOL"
+    }
+  },
+  {
+    "model": "reporting.DeliveryForm",
+    "pk": 1,
+    "fields": {
+      "name": "Delivery"
+    }
+  },
+  {
+    "model": "reporting.DeliveryForm",
+    "pk": 2,
+    "fields": {
+      "name": "Pickup"
+    }
+  },
+  {
+    "model": "reporting.DeliveryMethod",
+    "pk": 1,
+    "fields": {
+      "name": "Rail"
+    }
+  },
+  {
+    "model": "reporting.DeliveryMethod",
+    "pk": 2,
+    "fields": {
+      "name": "Road"
+    }
+  },
+  {
+    "model": "reporting.DeliveryMethod",
+    "pk": 3,
+    "fields": {
+      "name": "Water"
+    }
+  }
+]
