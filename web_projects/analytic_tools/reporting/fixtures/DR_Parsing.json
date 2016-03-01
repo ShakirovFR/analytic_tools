@@ -1,9 +1,669 @@
 [
   {
-    "model": "reporting.Date",
+    "model": "reporting.ProductName",
     "pk": 1,
     "fields": {
-      "date": "2016-02-01 00:00:00"
+      "name": "Masonry 22,5",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 2,
+    "fields": {
+      "name": "ПЦ 500-Д0-Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 3,
+    "fields": {
+      "name": "ПЦБ 1-500-Д0",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 4,
+    "fields": {
+      "name": "ПЦТ I-50",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 5,
+    "fields": {
+      "name": "ПЦТ I-G-СС-1/G",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 6,
+    "fields": {
+      "name": "ПЦТ II-50",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 7,
+    "fields": {
+      "name": "ЦЕМ I 42,5Б",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 8,
+    "fields": {
+      "name": "ЦЕМ I 42,5Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 9,
+    "fields": {
+      "name": "ЦЕМ II/А-З 42,5Б",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 10,
+    "fields": {
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 11,
+    "fields": {
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5Б",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 12,
+    "fields": {
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5БСС",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 13,
+    "fields": {
+      "name": "ЦЕМ II/А-Ш 32,5Б",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 14,
+    "fields": {
+      "name": "ЦЕМ II/А-Ш 42,5Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 15,
+    "fields": {
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.ProductName",
+    "pk": 16,
+    "fields": {
+      "name": "ЦЕМ V/А (Ш-П) 32,5Н",
+      "commonName": "Null"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 1,
+    "fields": {
+      "code": 39992,
+      "warehouseCode": "U104",
+      "name": "ЦЕМ II/А-Ш 32,5Б",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 2,
+    "fields": {
+      "code": 72615,
+      "warehouseCode": "U104",
+      "name": "ЦЕМ II/А-Ш 32,5Б",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 3,
+    "fields": {
+      "code": 72619,
+      "warehouseCode": "U104",
+      "name": "ЦЕМ II/А-З 42,5Б",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 4,
+    "fields": {
+      "code": 72630,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ I 42,5Б",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 5,
+    "fields": {
+      "code": 72636,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ I 42,5Б",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 6,
+    "fields": {
+      "code": 72711,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 7,
+    "fields": {
+      "code": 72712,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 8,
+    "fields": {
+      "code": 72713,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 9,
+    "fields": {
+      "code": 72714,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 10,
+    "fields": {
+      "code": 72715,
+      "warehouseCode": "U103",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 11,
+    "fields": {
+      "code": 72717,
+      "warehouseCode": "U104",
+      "name": "ЦЕМ I 42,5Б",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 12,
+    "fields": {
+      "code": 14002389,
+      "warehouseCode": "U102",
+      "name": "ПЦТ I-G-СС-1/G",
+      "type": "API cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 13,
+    "fields": {
+      "code": 14002391,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 14,
+    "fields": {
+      "code": 14002392,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5Б",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 15,
+    "fields": {
+      "code": 14002393,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5БСС",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 16,
+    "fields": {
+      "code": 14002394,
+      "warehouseCode": "U101",
+      "name": "ПЦБ 1-500-Д0",
+      "type": "White cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 17,
+    "fields": {
+      "code": 14002395,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-Ш 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 18,
+    "fields": {
+      "code": 14002396,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5БСС",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 19,
+    "fields": {
+      "code": 14002397,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 20,
+    "fields": {
+      "code": 14002399,
+      "warehouseCode": "U101",
+      "name": "ПЦБ 1-500-Д0",
+      "type": "White cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 21,
+    "fields": {
+      "code": 14002401,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 22,
+    "fields": {
+      "code": 14002402,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ I 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 23,
+    "fields": {
+      "code": 14002404,
+      "warehouseCode": "U102",
+      "name": "ПЦ 500-Д0-Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 24,
+    "fields": {
+      "code": 14002405,
+      "warehouseCode": "U101",
+      "name": "ПЦБ 1-500-Д0",
+      "type": "White cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 25,
+    "fields": {
+      "code": 14002406,
+      "warehouseCode": "U101",
+      "name": "ПЦБ 1-500-Д0",
+      "type": "White cement",
+      "subpackage": "Bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 26,
+    "fields": {
+      "code": 14002408,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 27,
+    "fields": {
+      "code": 14002409,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 28,
+    "fields": {
+      "code": 14002411,
+      "warehouseCode": "U102",
+      "name": "ПЦ 500-Д0-Н",
+      "type": "Grey cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 29,
+    "fields": {
+      "code": 14002412,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5БСС",
+      "type": "Grey cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 30,
+    "fields": {
+      "code": 14002413,
+      "warehouseCode": "U102",
+      "name": "ПЦТ I-50",
+      "type": "GOST cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 31,
+    "fields": {
+      "code": 14002414,
+      "warehouseCode": "U102",
+      "name": "ПЦТ I-50",
+      "type": "GOST cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 32,
+    "fields": {
+      "code": 14002417,
+      "warehouseCode": "U102",
+      "name": "ПЦТ II-50",
+      "type": "GOST cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 33,
+    "fields": {
+      "code": 14002418,
+      "warehouseCode": "U102",
+      "name": "ПЦТ I-G-СС-1/G",
+      "type": "API cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 34,
+    "fields": {
+      "code": 14002590,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 35,
+    "fields": {
+      "code": 14002591,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 36,
+    "fields": {
+      "code": 14002592,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/В-Ш 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 37,
+    "fields": {
+      "code": 14002593,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ II/А-К (Ш-П) 32,5БСС",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 38,
+    "fields": {
+      "code": 14002680,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ I 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 39,
+    "fields": {
+      "code": 14002681,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-Ш 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 40,
+    "fields": {
+      "code": 14002713,
+      "warehouseCode": "U101",
+      "name": "ПЦ 500-Д0-Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 41,
+    "fields": {
+      "code": 14002939,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ I 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Bulk"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 42,
+    "fields": {
+      "code": 14002982,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ I 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Big bags"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 43,
+    "fields": {
+      "code": 14002988,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ V/А (Ш-П) 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 44,
+    "fields": {
+      "code": 14003042,
+      "warehouseCode": "U101",
+      "name": "Masonry 22,5",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 45,
+    "fields": {
+      "code": 14003120,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ I 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 50kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 46,
+    "fields": {
+      "code": 14003252,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ V/А (Ш-П) 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 47,
+    "fields": {
+      "code": 14003262,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 48,
+    "fields": {
+      "code": 14003263,
+      "warehouseCode": "U102",
+      "name": "ЦЕМ V/А (Ш-П) 32,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
+    }
+  },
+  {
+    "model": "reporting.Product",
+    "pk": 49,
+    "fields": {
+      "code": 14003265,
+      "warehouseCode": "U101",
+      "name": "ЦЕМ II/А-К (Ш-И) 42,5Н",
+      "type": "Grey cement",
+      "subpackage": "Pallets 25kg"
     }
   }
 ]

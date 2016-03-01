@@ -1,9 +1,15 @@
 from django.contrib import admin
 from reporting.models import *
 
+class ProductAdmin(admin.ModelAdmin):
+	filter_horizontal	= ('code',)
+
+class UnificationAdmin(admin.ModelAdmin):
+	filter_horizontal	= ('sapCode', 'jdCode',)
+
 admin.site.register(Sap)
 admin.site.register(JD)
-admin.site.register(Unification)
+admin.site.register(Unification, UnificationAdmin)
 admin.site.register(CVM)
 admin.site.register(Group)
 admin.site.register(SoldTo)
@@ -17,7 +23,8 @@ admin.site.register(ProductName)
 admin.site.register(ProductType)
 admin.site.register(Package)
 admin.site.register(Subpackage)
-admin.site.register(Product)
+admin.site.register(ProductFromDB)
+admin.site.register(Product, ProductAdmin)
 admin.site.register(DeliveryForm)
 admin.site.register(DeliveryMethod)
 admin.site.register(Transport)
@@ -28,4 +35,8 @@ admin.site.register(Transaction)
 admin.site.register(Prediction)
 admin.site.register(ProductionExpense)
 admin.site.register(OtherExpense)
+admin.site.register(CostType)
+admin.site.register(CostElement)
+admin.site.register(CostCenter)
+admin.site.register(Distribution)
 admin.site.register(EBITDA)
