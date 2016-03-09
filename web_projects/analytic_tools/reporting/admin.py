@@ -1,23 +1,62 @@
 from django.contrib import admin
 from reporting.models import *
 
+def codeFromDB(obj):
+    codeFromDB = obj.codeFromDB.values_list('code', flat = True)
+    if len(codeFromDB) > 3:
+        return str(codeFromDB[:3])[1:-1] + ', end more...'
+    else:
+        return str(codeFromDB)[1:-1]
+    
+codeFromDB.short_description = 'codeFromDB'
+
+def getPSA(obj):
+    PSA = str(obj.PSA.values_list('code', flat = True))[1:-1]
+    if PSA == '':
+        return '-'
+    return PSA
+getPSA.short_description = 'PSA'
+
+def getSalesRepresentative(obj):
+    getSalesRepresentative = str(obj.salesRepresentative.values_list('name', flat = True))[1:-1]
+    if getSalesRepresentative == '':
+        return '-'
+    return getSalesRepresentative
+getSalesRepresentative.short_description = 'salesRepresentative'
+
 class ProductAdmin(admin.ModelAdmin):
-	filter_horizontal	= ('code',)
+    filter_horizontal	= ('code', 'PSA', 'salesRepresentative')
 
-class UnificationAdmin(admin.ModelAdmin):
-	filter_horizontal	= ('sapCode', 'jdCode',)
+class SoldToFromDBAdmin(admin.ModelAdmin):
+    list_display = ('code', 'name')
+    search_fields = ('code', 'name')
+    
+class ShipToFromDBAdmin(admin.ModelAdmin):
+    list_display = ('code', 'name')
+    search_fields = ('code', 'name')
+    
+class SoldToAdmin(admin.ModelAdmin):
+    filter_horizontal	= ('codeFromDB',)
+    list_display = ('code', 'name', codeFromDB, 'CVM', 'group')
+    list_filter = ('CVM', 'group')
+    search_fields = ('code', 'name')
+ 
+class ShipToAdmin(admin.ModelAdmin):
+    filter_horizontal	= ('codeFromDB', 'PSA', 'salesRepresentative')
+    list_display = ('code', 'name', codeFromDB, getPSA, getSalesRepresentative)
+    list_filter = ('PSA', 'salesRepresentative')
+    search_fields = ('code', 'name')
 
-admin.site.register(Sap)
-admin.site.register(JD)
-admin.site.register(Unification, UnificationAdmin)
+admin.site.register(SoldToFromDB, SoldToFromDBAdmin)
+admin.site.register(ShipToFromDB, ShipToFromDBAdmin)
 admin.site.register(CVM)
 admin.site.register(Group)
-admin.site.register(SoldTo)
+admin.site.register(SoldTo, SoldToAdmin)
 admin.site.register(PSA)
 admin.site.register(Country)
 admin.site.register(Area)
 admin.site.register(Region)
-admin.site.register(ShipTo)
+admin.site.register(ShipTo, ShipToAdmin)
 admin.site.register(Warehouse)
 admin.site.register(ProductName)
 admin.site.register(ProductType)

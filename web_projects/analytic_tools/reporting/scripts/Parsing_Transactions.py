@@ -62,7 +62,6 @@ def assignment(modelName, number):
         return modelName.objects.get(code = item[number])
     except:
         return None
-    
 
 #<--- testing function --->
 def unique(column):
